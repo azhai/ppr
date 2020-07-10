@@ -1,0 +1,15 @@
+
+.DS_Store
+*.bak
+*.cache
+*.log
+*.lock
+*.swap
+*.sublime-project
+*.sublime-workspace
+.git/
+.idea/
+vendor/
+
+go.mod
+go.sum

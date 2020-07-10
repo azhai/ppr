@@ -1,0 +1,5395 @@
+&node.Root{
+	Position: &position.Position{
+		StartLine: 25,
+		EndLine: 354,
+		StartPos: 476,
+		EndPos: 8682,
+	},
+	Stmts: []node.Node{
+		&stmt.Class{
+			Position: &position.Position{
+				StartLine: 25,
+				EndLine: 354,
+				StartPos: 476,
+				EndPos: 8682,
+			},
+			PhpDocComment: "",
+			ClassName: &node.Identifier{
+				Position: &position.Position{
+					StartLine: 25,
+					EndLine: 25,
+					StartPos: 488,
+					EndPos: 495,
+				},
+				Value: "WP_Site",
+			},
+			Modifiers: []node.Node{
+				&node.Identifier{
+					Position: &position.Position{
+						StartLine: 25,
+						EndLine: 25,
+						StartPos: 476,
+						EndPos: 481,
+					},
+					Value: "final",
+				},
+			},
+			Stmts: []node.Node{
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 36,
+						EndLine: 36,
+						StartPos: 640,
+						EndPos: 656,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 36,
+								EndLine: 36,
+								StartPos: 640,
+								EndPos: 646,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 36,
+								EndLine: 36,
+								StartPos: 647,
+								EndPos: 655,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 36,
+									EndLine: 36,
+									StartPos: 647,
+									EndPos: 655,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 36,
+										EndLine: 36,
+										StartPos: 647,
+										EndPos: 655,
+									},
+									Value: "blog_id",
+								},
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 44,
+						EndLine: 44,
+						StartPos: 751,
+						EndPos: 771,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 44,
+								EndLine: 44,
+								StartPos: 751,
+								EndPos: 757,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 44,
+								EndLine: 44,
+								StartPos: 758,
+								EndPos: 770,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 44,
+									EndLine: 44,
+									StartPos: 758,
+									EndPos: 765,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 44,
+										EndLine: 44,
+										StartPos: 758,
+										EndPos: 765,
+									},
+									Value: "domain",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 44,
+									EndLine: 44,
+									StartPos: 768,
+									EndPos: 770,
+								},
+								Value: "''",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 52,
+						EndLine: 52,
+						StartPos: 864,
+						EndPos: 882,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 52,
+								EndLine: 52,
+								StartPos: 864,
+								EndPos: 870,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 52,
+								EndLine: 52,
+								StartPos: 871,
+								EndPos: 881,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 52,
+									EndLine: 52,
+									StartPos: 871,
+									EndPos: 876,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 52,
+										EndLine: 52,
+										StartPos: 871,
+										EndPos: 876,
+									},
+									Value: "path",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 52,
+									EndLine: 52,
+									StartPos: 879,
+									EndPos: 881,
+								},
+								Value: "''",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 65,
+						EndLine: 65,
+						StartPos: 1165,
+						EndPos: 1187,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 65,
+								EndLine: 65,
+								StartPos: 1165,
+								EndPos: 1171,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 65,
+								EndLine: 65,
+								StartPos: 1172,
+								EndPos: 1186,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 65,
+									EndLine: 65,
+									StartPos: 1172,
+									EndPos: 1180,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 65,
+										EndLine: 65,
+										StartPos: 1172,
+										EndPos: 1180,
+									},
+									Value: "site_id",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 65,
+									EndLine: 65,
+									StartPos: 1183,
+									EndPos: 1186,
+								},
+								Value: "'0'",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 73,
+						EndLine: 73,
+						StartPos: 1349,
+						EndPos: 1392,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 73,
+								EndLine: 73,
+								StartPos: 1349,
+								EndPos: 1355,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 73,
+								EndLine: 73,
+								StartPos: 1356,
+								EndPos: 1391,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 73,
+									EndLine: 73,
+									StartPos: 1356,
+									EndPos: 1367,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 73,
+										EndLine: 73,
+										StartPos: 1356,
+										EndPos: 1367,
+									},
+									Value: "registered",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 73,
+									EndLine: 73,
+									StartPos: 1370,
+									EndPos: 1391,
+								},
+								Value: "'0000-00-00 00:00:00'",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 81,
+						EndLine: 81,
+						StartPos: 1560,
+						EndPos: 1605,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 81,
+								EndLine: 81,
+								StartPos: 1560,
+								EndPos: 1566,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 81,
+								EndLine: 81,
+								StartPos: 1567,
+								EndPos: 1604,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 81,
+									EndLine: 81,
+									StartPos: 1567,
+									EndPos: 1580,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 81,
+										EndLine: 81,
+										StartPos: 1567,
+										EndPos: 1580,
+									},
+									Value: "last_updated",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 81,
+									EndLine: 81,
+									StartPos: 1583,
+									EndPos: 1604,
+								},
+								Value: "'0000-00-00 00:00:00'",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 91,
+						EndLine: 91,
+						StartPos: 1785,
+						EndPos: 1806,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 91,
+								EndLine: 91,
+								StartPos: 1785,
+								EndPos: 1791,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 91,
+								EndLine: 91,
+								StartPos: 1792,
+								EndPos: 1805,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 91,
+									EndLine: 91,
+									StartPos: 1792,
+									EndPos: 1799,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 91,
+										EndLine: 91,
+										StartPos: 1792,
+										EndPos: 1799,
+									},
+									Value: "public",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 91,
+									EndLine: 91,
+									StartPos: 1802,
+									EndPos: 1805,
+								},
+								Value: "'1'",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 101,
+						EndLine: 101,
+						StartPos: 1988,
+						EndPos: 2011,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 101,
+								EndLine: 101,
+								StartPos: 1988,
+								EndPos: 1994,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 101,
+								EndLine: 101,
+								StartPos: 1995,
+								EndPos: 2010,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 101,
+									EndLine: 101,
+									StartPos: 1995,
+									EndPos: 2004,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 101,
+										EndLine: 101,
+										StartPos: 1995,
+										EndPos: 2004,
+									},
+									Value: "archived",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 101,
+									EndLine: 101,
+									StartPos: 2007,
+									EndPos: 2010,
+								},
+								Value: "'0'",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 114,
+						EndLine: 114,
+						StartPos: 2346,
+						EndPos: 2367,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 114,
+								EndLine: 114,
+								StartPos: 2346,
+								EndPos: 2352,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 114,
+								EndLine: 114,
+								StartPos: 2353,
+								EndPos: 2366,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 114,
+									EndLine: 114,
+									StartPos: 2353,
+									EndPos: 2360,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 114,
+										EndLine: 114,
+										StartPos: 2353,
+										EndPos: 2360,
+									},
+									Value: "mature",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 114,
+									EndLine: 114,
+									StartPos: 2363,
+									EndPos: 2366,
+								},
+								Value: "'0'",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 124,
+						EndLine: 124,
+						StartPos: 2545,
+						EndPos: 2564,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 124,
+								EndLine: 124,
+								StartPos: 2545,
+								EndPos: 2551,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 124,
+								EndLine: 124,
+								StartPos: 2552,
+								EndPos: 2563,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 124,
+									EndLine: 124,
+									StartPos: 2552,
+									EndPos: 2557,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 124,
+										EndLine: 124,
+										StartPos: 2552,
+										EndPos: 2557,
+									},
+									Value: "spam",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 124,
+									EndLine: 124,
+									StartPos: 2560,
+									EndPos: 2563,
+								},
+								Value: "'0'",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 134,
+						EndLine: 134,
+						StartPos: 2745,
+						EndPos: 2767,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 134,
+								EndLine: 134,
+								StartPos: 2745,
+								EndPos: 2751,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 134,
+								EndLine: 134,
+								StartPos: 2752,
+								EndPos: 2766,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 134,
+									EndLine: 134,
+									StartPos: 2752,
+									EndPos: 2760,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 134,
+										EndLine: 134,
+										StartPos: 2752,
+										EndPos: 2760,
+									},
+									Value: "deleted",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 134,
+									EndLine: 134,
+									StartPos: 2763,
+									EndPos: 2766,
+								},
+								Value: "'0'",
+							},
+						},
+					},
+				},
+				&stmt.PropertyList{
+					Position: &position.Position{
+						StartLine: 144,
+						EndLine: 144,
+						StartPos: 2946,
+						EndPos: 2968,
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 144,
+								EndLine: 144,
+								StartPos: 2946,
+								EndPos: 2952,
+							},
+							Value: "public",
+						},
+					},
+					Properties: []node.Node{
+						&stmt.Property{
+							Position: &position.Position{
+								StartLine: 144,
+								EndLine: 144,
+								StartPos: 2953,
+								EndPos: 2967,
+							},
+							PhpDocComment: "",
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 144,
+									EndLine: 144,
+									StartPos: 2953,
+									EndPos: 2961,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 144,
+										EndLine: 144,
+										StartPos: 2953,
+										EndPos: 2961,
+									},
+									Value: "lang_id",
+								},
+							},
+							Expr: &scalar.String{
+								Position: &position.Position{
+									StartLine: 144,
+									EndLine: 144,
+									StartPos: 2964,
+									EndPos: 2967,
+								},
+								Value: "'0'",
+							},
+						},
+					},
+				},
+				&stmt.ClassMethod{
+					Position: &position.Position{
+						StartLine: 157,
+						EndLine: 179,
+						StartPos: 3294,
+						EndPos: 3871,
+					},
+					ReturnsRef: false,
+					PhpDocComment: "",
+					MethodName: &node.Identifier{
+						Position: &position.Position{
+							StartLine: 157,
+							EndLine: 157,
+							StartPos: 3317,
+							EndPos: 3329,
+						},
+						Value: "get_instance",
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 157,
+								EndLine: 157,
+								StartPos: 3294,
+								EndPos: 3300,
+							},
+							Value: "public",
+						},
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 157,
+								EndLine: 157,
+								StartPos: 3301,
+								EndPos: 3307,
+							},
+							Value: "static",
+						},
+					},
+					Params: []node.Node{
+						&node.Parameter{
+							Position: &position.Position{
+								StartLine: 157,
+								EndLine: 157,
+								StartPos: 3330,
+								EndPos: 3338,
+							},
+							Variadic: false,
+							ByRef: false,
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 157,
+									EndLine: 157,
+									StartPos: 3330,
+									EndPos: 3338,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 157,
+										EndLine: 157,
+										StartPos: 3330,
+										EndPos: 3338,
+									},
+									Value: "site_id",
+								},
+							},
+						},
+					},
+					Stmt: &stmt.StmtList{
+						Position: &position.Position{
+							StartLine: 158,
+							EndLine: 179,
+							StartPos: 3344,
+							EndPos: 3871,
+						},
+						Stmts: []node.Node{
+							&stmt.Global{
+								Position: &position.Position{
+									StartLine: 159,
+									EndLine: 159,
+									StartPos: 3354,
+									EndPos: 3367,
+								},
+								Vars: []node.Node{
+									&expr.Variable{
+										Position: &position.Position{
+											StartLine: 159,
+											EndLine: 159,
+											StartPos: 3361,
+											EndPos: 3366,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 159,
+												EndLine: 159,
+												StartPos: 3361,
+												EndPos: 3366,
+											},
+											Value: "wpdb",
+										},
+									},
+								},
+							},
+							&stmt.Expression{
+								Position: &position.Position{
+									StartLine: 161,
+									EndLine: 161,
+									StartPos: 3377,
+									EndPos: 3403,
+								},
+								Expr: &assign.Assign{
+									Position: &position.Position{
+										StartLine: 161,
+										EndLine: 161,
+										StartPos: 3377,
+										EndPos: 3402,
+									},
+									Variable: &expr.Variable{
+										Position: &position.Position{
+											StartLine: 161,
+											EndLine: 161,
+											StartPos: 3377,
+											EndPos: 3385,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 161,
+												EndLine: 161,
+												StartPos: 3377,
+												EndPos: 3385,
+											},
+											Value: "site_id",
+										},
+									},
+									Expression: &cast.Int{
+										Position: &position.Position{
+											StartLine: 161,
+											EndLine: 161,
+											StartPos: 3388,
+											EndPos: 3402,
+										},
+										Expr: &expr.Variable{
+											Position: &position.Position{
+												StartLine: 161,
+												EndLine: 161,
+												StartPos: 3394,
+												EndPos: 3402,
+											},
+											VarName: &node.Identifier{
+												Position: &position.Position{
+													StartLine: 161,
+													EndLine: 161,
+													StartPos: 3394,
+													EndPos: 3402,
+												},
+												Value: "site_id",
+											},
+										},
+									},
+								},
+							},
+							&stmt.If{
+								Position: &position.Position{
+									StartLine: 162,
+									EndLine: 164,
+									StartPos: 3412,
+									EndPos: 3465,
+								},
+								Cond: &expr.BooleanNot{
+									Position: &position.Position{
+										StartLine: 162,
+										EndLine: 162,
+										StartPos: 3416,
+										EndPos: 3426,
+									},
+									Expr: &expr.Variable{
+										Position: &position.Position{
+											StartLine: 162,
+											EndLine: 162,
+											StartPos: 3418,
+											EndPos: 3426,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 162,
+												EndLine: 162,
+												StartPos: 3418,
+												EndPos: 3426,
+											},
+											Value: "site_id",
+										},
+									},
+								},
+								Stmt: &stmt.StmtList{
+									Position: &position.Position{
+										StartLine: 162,
+										EndLine: 164,
+										StartPos: 3428,
+										EndPos: 3465,
+									},
+									Stmts: []node.Node{
+										&stmt.Return{
+											Position: &position.Position{
+												StartLine: 163,
+												EndLine: 163,
+												StartPos: 3442,
+												EndPos: 3455,
+											},
+											Expr: &expr.ConstFetch{
+												Position: &position.Position{
+													StartLine: 163,
+													EndLine: 163,
+													StartPos: 3449,
+													EndPos: 3454,
+												},
+												Constant: &name.Name{
+													Position: &position.Position{
+														StartLine: 163,
+														EndLine: 163,
+														StartPos: 3449,
+														EndPos: 3454,
+													},
+													Parts: []node.Node{
+														&name.NamePart{
+															Position: &position.Position{
+																StartLine: 163,
+																EndLine: 163,
+																StartPos: 3449,
+																EndPos: 3454,
+															},
+															Value: "false",
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.Expression{
+								Position: &position.Position{
+									StartLine: 166,
+									EndLine: 166,
+									StartPos: 3475,
+									EndPos: 3516,
+								},
+								Expr: &assign.Assign{
+									Position: &position.Position{
+										StartLine: 166,
+										EndLine: 166,
+										StartPos: 3475,
+										EndPos: 3515,
+									},
+									Variable: &expr.Variable{
+										Position: &position.Position{
+											StartLine: 166,
+											EndLine: 166,
+											StartPos: 3475,
+											EndPos: 3481,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 166,
+												EndLine: 166,
+												StartPos: 3475,
+												EndPos: 3481,
+											},
+											Value: "_site",
+										},
+									},
+									Expression: &expr.FunctionCall{
+										Position: &position.Position{
+											StartLine: 166,
+											EndLine: 166,
+											StartPos: 3484,
+											EndPos: 3515,
+										},
+										Function: &name.Name{
+											Position: &position.Position{
+												StartLine: 166,
+												EndLine: 166,
+												StartPos: 3484,
+												EndPos: 3496,
+											},
+											Parts: []node.Node{
+												&name.NamePart{
+													Position: &position.Position{
+														StartLine: 166,
+														EndLine: 166,
+														StartPos: 3484,
+														EndPos: 3496,
+													},
+													Value: "wp_cache_get",
+												},
+											},
+										},
+										ArgumentList: &node.ArgumentList{
+											Position: &position.Position{
+												StartLine: 166,
+												EndLine: 166,
+												StartPos: 3496,
+												EndPos: 3515,
+											},
+											Arguments: []node.Node{
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 166,
+														EndLine: 166,
+														StartPos: 3497,
+														EndPos: 3505,
+													},
+													Variadic: false,
+													IsReference: false,
+													Expr: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 166,
+															EndLine: 166,
+															StartPos: 3497,
+															EndPos: 3505,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 166,
+																EndLine: 166,
+																StartPos: 3497,
+																EndPos: 3505,
+															},
+															Value: "site_id",
+														},
+													},
+												},
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 166,
+														EndLine: 166,
+														StartPos: 3507,
+														EndPos: 3514,
+													},
+													Variadic: false,
+													IsReference: false,
+													Expr: &scalar.String{
+														Position: &position.Position{
+															StartLine: 166,
+															EndLine: 166,
+															StartPos: 3507,
+															EndPos: 3514,
+														},
+														Value: "'sites'",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.If{
+								Position: &position.Position{
+									StartLine: 168,
+									EndLine: 176,
+									StartPos: 3526,
+									EndPos: 3828,
+								},
+								Cond: &expr.BooleanNot{
+									Position: &position.Position{
+										StartLine: 168,
+										EndLine: 168,
+										StartPos: 3530,
+										EndPos: 3538,
+									},
+									Expr: &expr.Variable{
+										Position: &position.Position{
+											StartLine: 168,
+											EndLine: 168,
+											StartPos: 3532,
+											EndPos: 3538,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 168,
+												EndLine: 168,
+												StartPos: 3532,
+												EndPos: 3538,
+											},
+											Value: "_site",
+										},
+									},
+								},
+								Stmt: &stmt.StmtList{
+									Position: &position.Position{
+										StartLine: 168,
+										EndLine: 176,
+										StartPos: 3540,
+										EndPos: 3828,
+									},
+									Stmts: []node.Node{
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 169,
+												EndLine: 169,
+												StartPos: 3554,
+												EndPos: 3663,
+											},
+											Expr: &assign.Assign{
+												Position: &position.Position{
+													StartLine: 169,
+													EndLine: 169,
+													StartPos: 3554,
+													EndPos: 3662,
+												},
+												Variable: &expr.Variable{
+													Position: &position.Position{
+														StartLine: 169,
+														EndLine: 169,
+														StartPos: 3554,
+														EndPos: 3560,
+													},
+													VarName: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 169,
+															EndLine: 169,
+															StartPos: 3554,
+															EndPos: 3560,
+														},
+														Value: "_site",
+													},
+												},
+												Expression: &expr.MethodCall{
+													Position: &position.Position{
+														StartLine: 169,
+														EndLine: 169,
+														StartPos: 3563,
+														EndPos: 3662,
+													},
+													Variable: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 169,
+															EndLine: 169,
+															StartPos: 3563,
+															EndPos: 3568,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 169,
+																EndLine: 169,
+																StartPos: 3563,
+																EndPos: 3568,
+															},
+															Value: "wpdb",
+														},
+													},
+													Method: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 169,
+															EndLine: 169,
+															StartPos: 3570,
+															EndPos: 3577,
+														},
+														Value: "get_row",
+													},
+													ArgumentList: &node.ArgumentList{
+														Position: &position.Position{
+															StartLine: 169,
+															EndLine: 169,
+															StartPos: 3577,
+															EndPos: 3662,
+														},
+														Arguments: []node.Node{
+															&node.Argument{
+																Position: &position.Position{
+																	StartLine: 169,
+																	EndLine: 169,
+																	StartPos: 3578,
+																	EndPos: 3661,
+																},
+																Variadic: false,
+																IsReference: false,
+																Expr: &expr.MethodCall{
+																	Position: &position.Position{
+																		StartLine: 169,
+																		EndLine: 169,
+																		StartPos: 3578,
+																		EndPos: 3661,
+																	},
+																	Variable: &expr.Variable{
+																		Position: &position.Position{
+																			StartLine: 169,
+																			EndLine: 169,
+																			StartPos: 3578,
+																			EndPos: 3583,
+																		},
+																		VarName: &node.Identifier{
+																			Position: &position.Position{
+																				StartLine: 169,
+																				EndLine: 169,
+																				StartPos: 3578,
+																				EndPos: 3583,
+																			},
+																			Value: "wpdb",
+																		},
+																	},
+																	Method: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 169,
+																			EndLine: 169,
+																			StartPos: 3585,
+																			EndPos: 3592,
+																		},
+																		Value: "prepare",
+																	},
+																	ArgumentList: &node.ArgumentList{
+																		Position: &position.Position{
+																			StartLine: 169,
+																			EndLine: 169,
+																			StartPos: 3592,
+																			EndPos: 3661,
+																		},
+																		Arguments: []node.Node{
+																			&node.Argument{
+																				Position: &position.Position{
+																					StartLine: 169,
+																					EndLine: 169,
+																					StartPos: 3593,
+																					EndPos: 3650,
+																				},
+																				Variadic: false,
+																				IsReference: false,
+																				Expr: &scalar.Encapsed{
+																					Position: &position.Position{
+																						StartLine: 169,
+																						EndLine: 169,
+																						StartPos: 3593,
+																						EndPos: 3650,
+																					},
+																					Parts: []node.Node{
+																						&scalar.EncapsedStringPart{
+																							Position: &position.Position{
+																								StartLine: 169,
+																								EndLine: 169,
+																								StartPos: 3594,
+																								EndPos: 3608,
+																							},
+																							Value: "SELECT * FROM ",
+																						},
+																						&expr.PropertyFetch{
+																							Position: &position.Position{
+																								StartLine: 169,
+																								EndLine: 169,
+																								StartPos: 3609,
+																								EndPos: 3621,
+																							},
+																							Variable: &expr.Variable{
+																								Position: &position.Position{
+																									StartLine: 169,
+																									EndLine: 169,
+																									StartPos: 3609,
+																									EndPos: 3614,
+																								},
+																								VarName: &node.Identifier{
+																									Position: &position.Position{
+																										StartLine: 169,
+																										EndLine: 169,
+																										StartPos: 3609,
+																										EndPos: 3614,
+																									},
+																									Value: "wpdb",
+																								},
+																							},
+																							Property: &node.Identifier{
+																								Position: &position.Position{
+																									StartLine: 169,
+																									EndLine: 169,
+																									StartPos: 3616,
+																									EndPos: 3621,
+																								},
+																								Value: "blogs",
+																							},
+																						},
+																						&scalar.EncapsedStringPart{
+																							Position: &position.Position{
+																								StartLine: 169,
+																								EndLine: 169,
+																								StartPos: 3622,
+																								EndPos: 3649,
+																							},
+																							Value: " WHERE blog_id = %d LIMIT 1",
+																						},
+																					},
+																				},
+																			},
+																			&node.Argument{
+																				Position: &position.Position{
+																					StartLine: 169,
+																					EndLine: 169,
+																					StartPos: 3652,
+																					EndPos: 3660,
+																				},
+																				Variadic: false,
+																				IsReference: false,
+																				Expr: &expr.Variable{
+																					Position: &position.Position{
+																						StartLine: 169,
+																						EndLine: 169,
+																						StartPos: 3652,
+																						EndPos: 3660,
+																					},
+																					VarName: &node.Identifier{
+																						Position: &position.Position{
+																							StartLine: 169,
+																							EndLine: 169,
+																							StartPos: 3652,
+																							EndPos: 3660,
+																						},
+																						Value: "site_id",
+																					},
+																				},
+																			},
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.If{
+											Position: &position.Position{
+												StartLine: 171,
+												EndLine: 173,
+												StartPos: 3677,
+												EndPos: 3764,
+											},
+											Cond: &binary.BooleanOr{
+												Position: &position.Position{
+													StartLine: 171,
+													EndLine: 171,
+													StartPos: 3681,
+													EndPos: 3717,
+												},
+												Left: &expr.Empty{
+													Position: &position.Position{
+														StartLine: 171,
+														EndLine: 171,
+														StartPos: 3681,
+														EndPos: 3694,
+													},
+													Expr: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 171,
+															EndLine: 171,
+															StartPos: 3687,
+															EndPos: 3693,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 171,
+																EndLine: 171,
+																StartPos: 3687,
+																EndPos: 3693,
+															},
+															Value: "_site",
+														},
+													},
+												},
+												Right: &expr.FunctionCall{
+													Position: &position.Position{
+														StartLine: 171,
+														EndLine: 171,
+														StartPos: 3698,
+														EndPos: 3717,
+													},
+													Function: &name.Name{
+														Position: &position.Position{
+															StartLine: 171,
+															EndLine: 171,
+															StartPos: 3698,
+															EndPos: 3709,
+														},
+														Parts: []node.Node{
+															&name.NamePart{
+																Position: &position.Position{
+																	StartLine: 171,
+																	EndLine: 171,
+																	StartPos: 3698,
+																	EndPos: 3709,
+																},
+																Value: "is_wp_error",
+															},
+														},
+													},
+													ArgumentList: &node.ArgumentList{
+														Position: &position.Position{
+															StartLine: 171,
+															EndLine: 171,
+															StartPos: 3709,
+															EndPos: 3717,
+														},
+														Arguments: []node.Node{
+															&node.Argument{
+																Position: &position.Position{
+																	StartLine: 171,
+																	EndLine: 171,
+																	StartPos: 3710,
+																	EndPos: 3716,
+																},
+																Variadic: false,
+																IsReference: false,
+																Expr: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 171,
+																		EndLine: 171,
+																		StartPos: 3710,
+																		EndPos: 3716,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 171,
+																			EndLine: 171,
+																			StartPos: 3710,
+																			EndPos: 3716,
+																		},
+																		Value: "_site",
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+											Stmt: &stmt.StmtList{
+												Position: &position.Position{
+													StartLine: 171,
+													EndLine: 173,
+													StartPos: 3719,
+													EndPos: 3764,
+												},
+												Stmts: []node.Node{
+													&stmt.Return{
+														Position: &position.Position{
+															StartLine: 172,
+															EndLine: 172,
+															StartPos: 3737,
+															EndPos: 3750,
+														},
+														Expr: &expr.ConstFetch{
+															Position: &position.Position{
+																StartLine: 172,
+																EndLine: 172,
+																StartPos: 3744,
+																EndPos: 3749,
+															},
+															Constant: &name.Name{
+																Position: &position.Position{
+																	StartLine: 172,
+																	EndLine: 172,
+																	StartPos: 3744,
+																	EndPos: 3749,
+																},
+																Parts: []node.Node{
+																	&name.NamePart{
+																		Position: &position.Position{
+																			StartLine: 172,
+																			EndLine: 172,
+																			StartPos: 3744,
+																			EndPos: 3749,
+																		},
+																		Value: "false",
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 175,
+												EndLine: 175,
+												StartPos: 3778,
+												EndPos: 3818,
+											},
+											Expr: &expr.FunctionCall{
+												Position: &position.Position{
+													StartLine: 175,
+													EndLine: 175,
+													StartPos: 3778,
+													EndPos: 3817,
+												},
+												Function: &name.Name{
+													Position: &position.Position{
+														StartLine: 175,
+														EndLine: 175,
+														StartPos: 3778,
+														EndPos: 3790,
+													},
+													Parts: []node.Node{
+														&name.NamePart{
+															Position: &position.Position{
+																StartLine: 175,
+																EndLine: 175,
+																StartPos: 3778,
+																EndPos: 3790,
+															},
+															Value: "wp_cache_add",
+														},
+													},
+												},
+												ArgumentList: &node.ArgumentList{
+													Position: &position.Position{
+														StartLine: 175,
+														EndLine: 175,
+														StartPos: 3790,
+														EndPos: 3817,
+													},
+													Arguments: []node.Node{
+														&node.Argument{
+															Position: &position.Position{
+																StartLine: 175,
+																EndLine: 175,
+																StartPos: 3791,
+																EndPos: 3799,
+															},
+															Variadic: false,
+															IsReference: false,
+															Expr: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 175,
+																	EndLine: 175,
+																	StartPos: 3791,
+																	EndPos: 3799,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 175,
+																		EndLine: 175,
+																		StartPos: 3791,
+																		EndPos: 3799,
+																	},
+																	Value: "site_id",
+																},
+															},
+														},
+														&node.Argument{
+															Position: &position.Position{
+																StartLine: 175,
+																EndLine: 175,
+																StartPos: 3801,
+																EndPos: 3807,
+															},
+															Variadic: false,
+															IsReference: false,
+															Expr: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 175,
+																	EndLine: 175,
+																	StartPos: 3801,
+																	EndPos: 3807,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 175,
+																		EndLine: 175,
+																		StartPos: 3801,
+																		EndPos: 3807,
+																	},
+																	Value: "_site",
+																},
+															},
+														},
+														&node.Argument{
+															Position: &position.Position{
+																StartLine: 175,
+																EndLine: 175,
+																StartPos: 3809,
+																EndPos: 3816,
+															},
+															Variadic: false,
+															IsReference: false,
+															Expr: &scalar.String{
+																Position: &position.Position{
+																	StartLine: 175,
+																	EndLine: 175,
+																	StartPos: 3809,
+																	EndPos: 3816,
+																},
+																Value: "'sites'",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.Return{
+								Position: &position.Position{
+									StartLine: 178,
+									EndLine: 178,
+									StartPos: 3838,
+									EndPos: 3865,
+								},
+								Expr: &expr.New{
+									Position: &position.Position{
+										StartLine: 178,
+										EndLine: 178,
+										StartPos: 3845,
+										EndPos: 3864,
+									},
+									Class: &name.Name{
+										Position: &position.Position{
+											StartLine: 178,
+											EndLine: 178,
+											StartPos: 3849,
+											EndPos: 3856,
+										},
+										Parts: []node.Node{
+											&name.NamePart{
+												Position: &position.Position{
+													StartLine: 178,
+													EndLine: 178,
+													StartPos: 3849,
+													EndPos: 3856,
+												},
+												Value: "WP_Site",
+											},
+										},
+									},
+									ArgumentList: &node.ArgumentList{
+										Position: &position.Position{
+											StartLine: 178,
+											EndLine: 178,
+											StartPos: 3856,
+											EndPos: 3864,
+										},
+										Arguments: []node.Node{
+											&node.Argument{
+												Position: &position.Position{
+													StartLine: 178,
+													EndLine: 178,
+													StartPos: 3857,
+													EndPos: 3863,
+												},
+												Variadic: false,
+												IsReference: false,
+												Expr: &expr.Variable{
+													Position: &position.Position{
+														StartLine: 178,
+														EndLine: 178,
+														StartPos: 3857,
+														EndPos: 3863,
+													},
+													VarName: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 178,
+															EndLine: 178,
+															StartPos: 3857,
+															EndPos: 3863,
+														},
+														Value: "_site",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				&stmt.ClassMethod{
+					Position: &position.Position{
+						StartLine: 191,
+						EndLine: 196,
+						StartPos: 4155,
+						EndPos: 4306,
+					},
+					ReturnsRef: false,
+					PhpDocComment: "",
+					MethodName: &node.Identifier{
+						Position: &position.Position{
+							StartLine: 191,
+							EndLine: 191,
+							StartPos: 4171,
+							EndPos: 4182,
+						},
+						Value: "__construct",
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 191,
+								EndLine: 191,
+								StartPos: 4155,
+								EndPos: 4161,
+							},
+							Value: "public",
+						},
+					},
+					Params: []node.Node{
+						&node.Parameter{
+							Position: &position.Position{
+								StartLine: 191,
+								EndLine: 191,
+								StartPos: 4183,
+								EndPos: 4188,
+							},
+							ByRef: false,
+							Variadic: false,
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 191,
+									EndLine: 191,
+									StartPos: 4183,
+									EndPos: 4188,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 191,
+										EndLine: 191,
+										StartPos: 4183,
+										EndPos: 4188,
+									},
+									Value: "site",
+								},
+							},
+						},
+					},
+					Stmt: &stmt.StmtList{
+						Position: &position.Position{
+							StartLine: 192,
+							EndLine: 196,
+							StartPos: 4194,
+							EndPos: 4306,
+						},
+						Stmts: []node.Node{
+							&stmt.Foreach{
+								Position: &position.Position{
+									StartLine: 193,
+									EndLine: 195,
+									StartPos: 4204,
+									EndPos: 4300,
+								},
+								Expr: &expr.FunctionCall{
+									Position: &position.Position{
+										StartLine: 193,
+										EndLine: 193,
+										StartPos: 4213,
+										EndPos: 4235,
+									},
+									Function: &name.Name{
+										Position: &position.Position{
+											StartLine: 193,
+											EndLine: 193,
+											StartPos: 4213,
+											EndPos: 4228,
+										},
+										Parts: []node.Node{
+											&name.NamePart{
+												Position: &position.Position{
+													StartLine: 193,
+													EndLine: 193,
+													StartPos: 4213,
+													EndPos: 4228,
+												},
+												Value: "get_object_vars",
+											},
+										},
+									},
+									ArgumentList: &node.ArgumentList{
+										Position: &position.Position{
+											StartLine: 193,
+											EndLine: 193,
+											StartPos: 4228,
+											EndPos: 4235,
+										},
+										Arguments: []node.Node{
+											&node.Argument{
+												Position: &position.Position{
+													StartLine: 193,
+													EndLine: 193,
+													StartPos: 4229,
+													EndPos: 4234,
+												},
+												Variadic: false,
+												IsReference: false,
+												Expr: &expr.Variable{
+													Position: &position.Position{
+														StartLine: 193,
+														EndLine: 193,
+														StartPos: 4229,
+														EndPos: 4234,
+													},
+													VarName: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 193,
+															EndLine: 193,
+															StartPos: 4229,
+															EndPos: 4234,
+														},
+														Value: "site",
+													},
+												},
+											},
+										},
+									},
+								},
+								Key: &expr.Variable{
+									Position: &position.Position{
+										StartLine: 193,
+										EndLine: 193,
+										StartPos: 4239,
+										EndPos: 4243,
+									},
+									VarName: &node.Identifier{
+										Position: &position.Position{
+											StartLine: 193,
+											EndLine: 193,
+											StartPos: 4239,
+											EndPos: 4243,
+										},
+										Value: "key",
+									},
+								},
+								Variable: &expr.Variable{
+									Position: &position.Position{
+										StartLine: 193,
+										EndLine: 193,
+										StartPos: 4247,
+										EndPos: 4253,
+									},
+									VarName: &node.Identifier{
+										Position: &position.Position{
+											StartLine: 193,
+											EndLine: 193,
+											StartPos: 4247,
+											EndPos: 4253,
+										},
+										Value: "value",
+									},
+								},
+								Stmt: &stmt.StmtList{
+									Position: &position.Position{
+										StartLine: 193,
+										EndLine: 195,
+										StartPos: 4255,
+										EndPos: 4300,
+									},
+									Stmts: []node.Node{
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 194,
+												EndLine: 194,
+												StartPos: 4269,
+												EndPos: 4290,
+											},
+											Expr: &assign.Assign{
+												Position: &position.Position{
+													StartLine: 194,
+													EndLine: 194,
+													StartPos: 4269,
+													EndPos: 4289,
+												},
+												Variable: &expr.PropertyFetch{
+													Position: &position.Position{
+														StartLine: 194,
+														EndLine: 194,
+														StartPos: 4269,
+														EndPos: 4280,
+													},
+													Variable: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 194,
+															EndLine: 194,
+															StartPos: 4269,
+															EndPos: 4274,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 194,
+																EndLine: 194,
+																StartPos: 4269,
+																EndPos: 4274,
+															},
+															Value: "this",
+														},
+													},
+													Property: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 194,
+															EndLine: 194,
+															StartPos: 4276,
+															EndPos: 4280,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 194,
+																EndLine: 194,
+																StartPos: 4276,
+																EndPos: 4280,
+															},
+															Value: "key",
+														},
+													},
+												},
+												Expression: &expr.Variable{
+													Position: &position.Position{
+														StartLine: 194,
+														EndLine: 194,
+														StartPos: 4283,
+														EndPos: 4289,
+													},
+													VarName: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 194,
+															EndLine: 194,
+															StartPos: 4283,
+															EndPos: 4289,
+														},
+														Value: "value",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				&stmt.ClassMethod{
+					Position: &position.Position{
+						StartLine: 205,
+						EndLine: 208,
+						StartPos: 4436,
+						EndPos: 4513,
+					},
+					ReturnsRef: false,
+					PhpDocComment: "",
+					MethodName: &node.Identifier{
+						Position: &position.Position{
+							StartLine: 205,
+							EndLine: 205,
+							StartPos: 4452,
+							EndPos: 4460,
+						},
+						Value: "to_array",
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 205,
+								EndLine: 205,
+								StartPos: 4436,
+								EndPos: 4442,
+							},
+							Value: "public",
+						},
+					},
+					Stmt: &stmt.StmtList{
+						Position: &position.Position{
+							StartLine: 206,
+							EndLine: 208,
+							StartPos: 4467,
+							EndPos: 4513,
+						},
+						Stmts: []node.Node{
+							&stmt.Return{
+								Position: &position.Position{
+									StartLine: 207,
+									EndLine: 207,
+									StartPos: 4477,
+									EndPos: 4507,
+								},
+								Expr: &expr.FunctionCall{
+									Position: &position.Position{
+										StartLine: 207,
+										EndLine: 207,
+										StartPos: 4484,
+										EndPos: 4506,
+									},
+									Function: &name.Name{
+										Position: &position.Position{
+											StartLine: 207,
+											EndLine: 207,
+											StartPos: 4484,
+											EndPos: 4499,
+										},
+										Parts: []node.Node{
+											&name.NamePart{
+												Position: &position.Position{
+													StartLine: 207,
+													EndLine: 207,
+													StartPos: 4484,
+													EndPos: 4499,
+												},
+												Value: "get_object_vars",
+											},
+										},
+									},
+									ArgumentList: &node.ArgumentList{
+										Position: &position.Position{
+											StartLine: 207,
+											EndLine: 207,
+											StartPos: 4499,
+											EndPos: 4506,
+										},
+										Arguments: []node.Node{
+											&node.Argument{
+												Position: &position.Position{
+													StartLine: 207,
+													EndLine: 207,
+													StartPos: 4500,
+													EndPos: 4505,
+												},
+												IsReference: false,
+												Variadic: false,
+												Expr: &expr.Variable{
+													Position: &position.Position{
+														StartLine: 207,
+														EndLine: 207,
+														StartPos: 4500,
+														EndPos: 4505,
+													},
+													VarName: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 207,
+															EndLine: 207,
+															StartPos: 4500,
+															EndPos: 4505,
+														},
+														Value: "this",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				&stmt.ClassMethod{
+					Position: &position.Position{
+						StartLine: 221,
+						EndLine: 244,
+						StartPos: 4827,
+						EndPos: 5509,
+					},
+					ReturnsRef: false,
+					PhpDocComment: "",
+					MethodName: &node.Identifier{
+						Position: &position.Position{
+							StartLine: 221,
+							EndLine: 221,
+							StartPos: 4843,
+							EndPos: 4848,
+						},
+						Value: "__get",
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 221,
+								EndLine: 221,
+								StartPos: 4827,
+								EndPos: 4833,
+							},
+							Value: "public",
+						},
+					},
+					Params: []node.Node{
+						&node.Parameter{
+							Position: &position.Position{
+								StartLine: 221,
+								EndLine: 221,
+								StartPos: 4849,
+								EndPos: 4853,
+							},
+							Variadic: false,
+							ByRef: false,
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 221,
+									EndLine: 221,
+									StartPos: 4849,
+									EndPos: 4853,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 221,
+										EndLine: 221,
+										StartPos: 4849,
+										EndPos: 4853,
+									},
+									Value: "key",
+								},
+							},
+						},
+					},
+					Stmt: &stmt.StmtList{
+						Position: &position.Position{
+							StartLine: 222,
+							EndLine: 244,
+							StartPos: 4859,
+							EndPos: 5509,
+						},
+						Stmts: []node.Node{
+							&stmt.Switch{
+								Position: &position.Position{
+									StartLine: 223,
+									EndLine: 241,
+									StartPos: 4869,
+									EndPos: 5481,
+								},
+								Cond: &expr.Variable{
+									Position: &position.Position{
+										StartLine: 223,
+										EndLine: 223,
+										StartPos: 4877,
+										EndPos: 4881,
+									},
+									VarName: &node.Identifier{
+										Position: &position.Position{
+											StartLine: 223,
+											EndLine: 223,
+											StartPos: 4877,
+											EndPos: 4881,
+										},
+										Value: "key",
+									},
+								},
+								CaseList: &stmt.CaseList{
+									Position: &position.Position{
+										StartLine: 223,
+										EndLine: 241,
+										StartPos: 4883,
+										EndPos: 5481,
+									},
+									Cases: []node.Node{
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 224,
+												EndLine: 225,
+												StartPos: 4897,
+												EndPos: 4952,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 224,
+													EndLine: 224,
+													StartPos: 4902,
+													EndPos: 4906,
+												},
+												Value: "'id'",
+											},
+											Stmts: []node.Node{
+												&stmt.Return{
+													Position: &position.Position{
+														StartLine: 225,
+														EndLine: 225,
+														StartPos: 4924,
+														EndPos: 4952,
+													},
+													Expr: &cast.Int{
+														Position: &position.Position{
+															StartLine: 225,
+															EndLine: 225,
+															StartPos: 4931,
+															EndPos: 4951,
+														},
+														Expr: &expr.PropertyFetch{
+															Position: &position.Position{
+																StartLine: 225,
+																EndLine: 225,
+																StartPos: 4937,
+																EndPos: 4951,
+															},
+															Variable: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 225,
+																	EndLine: 225,
+																	StartPos: 4937,
+																	EndPos: 4942,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 225,
+																		EndLine: 225,
+																		StartPos: 4937,
+																		EndPos: 4942,
+																	},
+																	Value: "this",
+																},
+															},
+															Property: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 225,
+																	EndLine: 225,
+																	StartPos: 4944,
+																	EndPos: 4951,
+																},
+																Value: "blog_id",
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 226,
+												EndLine: 227,
+												StartPos: 4965,
+												EndPos: 5028,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 226,
+													EndLine: 226,
+													StartPos: 4970,
+													EndPos: 4982,
+												},
+												Value: "'network_id'",
+											},
+											Stmts: []node.Node{
+												&stmt.Return{
+													Position: &position.Position{
+														StartLine: 227,
+														EndLine: 227,
+														StartPos: 5000,
+														EndPos: 5028,
+													},
+													Expr: &cast.Int{
+														Position: &position.Position{
+															StartLine: 227,
+															EndLine: 227,
+															StartPos: 5007,
+															EndPos: 5027,
+														},
+														Expr: &expr.PropertyFetch{
+															Position: &position.Position{
+																StartLine: 227,
+																EndLine: 227,
+																StartPos: 5013,
+																EndPos: 5027,
+															},
+															Variable: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 227,
+																	EndLine: 227,
+																	StartPos: 5013,
+																	EndPos: 5018,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 227,
+																		EndLine: 227,
+																		StartPos: 5013,
+																		EndPos: 5018,
+																	},
+																	Value: "this",
+																},
+															},
+															Property: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 227,
+																	EndLine: 227,
+																	StartPos: 5020,
+																	EndPos: 5027,
+																},
+																Value: "site_id",
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 228,
+												EndLine: -1,
+												StartPos: 5041,
+												EndPos: -1,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 228,
+													EndLine: 228,
+													StartPos: 5046,
+													EndPos: 5056,
+												},
+												Value: "'blogname'",
+											},
+											Stmts: []node.Node{
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 229,
+												EndLine: -1,
+												StartPos: 5070,
+												EndPos: -1,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 229,
+													EndLine: 229,
+													StartPos: 5075,
+													EndPos: 5084,
+												},
+												Value: "'siteurl'",
+											},
+											Stmts: []node.Node{
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 230,
+												EndLine: -1,
+												StartPos: 5098,
+												EndPos: -1,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 230,
+													EndLine: 230,
+													StartPos: 5103,
+													EndPos: 5115,
+												},
+												Value: "'post_count'",
+											},
+											Stmts: []node.Node{
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 231,
+												EndLine: -1,
+												StartPos: 5129,
+												EndPos: -1,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 231,
+													EndLine: 231,
+													StartPos: 5134,
+													EndPos: 5140,
+												},
+												Value: "'home'",
+											},
+											Stmts: []node.Node{
+											},
+										},
+										&stmt.Default{
+											Position: &position.Position{
+												StartLine: 232,
+												EndLine: 240,
+												StartPos: 5154,
+												EndPos: 5471,
+											},
+											Stmts: []node.Node{
+												&stmt.If{
+													Position: &position.Position{
+														StartLine: 233,
+														EndLine: 235,
+														StartPos: 5232,
+														EndPos: 5315,
+													},
+													Cond: &expr.BooleanNot{
+														Position: &position.Position{
+															StartLine: 233,
+															EndLine: 233,
+															StartPos: 5236,
+															EndPos: 5261,
+														},
+														Expr: &expr.FunctionCall{
+															Position: &position.Position{
+																StartLine: 233,
+																EndLine: 233,
+																StartPos: 5238,
+																EndPos: 5261,
+															},
+															Function: &name.Name{
+																Position: &position.Position{
+																	StartLine: 233,
+																	EndLine: 233,
+																	StartPos: 5238,
+																	EndPos: 5248,
+																},
+																Parts: []node.Node{
+																	&name.NamePart{
+																		Position: &position.Position{
+																			StartLine: 233,
+																			EndLine: 233,
+																			StartPos: 5238,
+																			EndPos: 5248,
+																		},
+																		Value: "did_action",
+																	},
+																},
+															},
+															ArgumentList: &node.ArgumentList{
+																Position: &position.Position{
+																	StartLine: 233,
+																	EndLine: 233,
+																	StartPos: 5248,
+																	EndPos: 5261,
+																},
+																Arguments: []node.Node{
+																	&node.Argument{
+																		Position: &position.Position{
+																			StartLine: 233,
+																			EndLine: 233,
+																			StartPos: 5249,
+																			EndPos: 5260,
+																		},
+																		Variadic: false,
+																		IsReference: false,
+																		Expr: &scalar.String{
+																			Position: &position.Position{
+																				StartLine: 233,
+																				EndLine: 233,
+																				StartPos: 5249,
+																				EndPos: 5260,
+																			},
+																			Value: "'ms_loaded'",
+																		},
+																	},
+																},
+															},
+														},
+													},
+													Stmt: &stmt.StmtList{
+														Position: &position.Position{
+															StartLine: 233,
+															EndLine: 235,
+															StartPos: 5263,
+															EndPos: 5315,
+														},
+														Stmts: []node.Node{
+															&stmt.Return{
+																Position: &position.Position{
+																	StartLine: 234,
+																	EndLine: 234,
+																	StartPos: 5285,
+																	EndPos: 5297,
+																},
+																Expr: &expr.ConstFetch{
+																	Position: &position.Position{
+																		StartLine: 234,
+																		EndLine: 234,
+																		StartPos: 5292,
+																		EndPos: 5296,
+																	},
+																	Constant: &name.Name{
+																		Position: &position.Position{
+																			StartLine: 234,
+																			EndLine: 234,
+																			StartPos: 5292,
+																			EndPos: 5296,
+																		},
+																		Parts: []node.Node{
+																			&name.NamePart{
+																				Position: &position.Position{
+																					StartLine: 234,
+																					EndLine: 234,
+																					StartPos: 5292,
+																					EndPos: 5296,
+																				},
+																				Value: "null",
+																			},
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												&stmt.Expression{
+													Position: &position.Position{
+														StartLine: 237,
+														EndLine: 237,
+														StartPos: 5333,
+														EndPos: 5365,
+													},
+													Expr: &assign.Assign{
+														Position: &position.Position{
+															StartLine: 237,
+															EndLine: 237,
+															StartPos: 5333,
+															EndPos: 5364,
+														},
+														Variable: &expr.Variable{
+															Position: &position.Position{
+																StartLine: 237,
+																EndLine: 237,
+																StartPos: 5333,
+																EndPos: 5341,
+															},
+															VarName: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 237,
+																	EndLine: 237,
+																	StartPos: 5333,
+																	EndPos: 5341,
+																},
+																Value: "details",
+															},
+														},
+														Expression: &expr.MethodCall{
+															Position: &position.Position{
+																StartLine: 237,
+																EndLine: 237,
+																StartPos: 5344,
+																EndPos: 5364,
+															},
+															Variable: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 237,
+																	EndLine: 237,
+																	StartPos: 5344,
+																	EndPos: 5349,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 237,
+																		EndLine: 237,
+																		StartPos: 5344,
+																		EndPos: 5349,
+																	},
+																	Value: "this",
+																},
+															},
+															Method: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 237,
+																	EndLine: 237,
+																	StartPos: 5351,
+																	EndPos: 5362,
+																},
+																Value: "get_details",
+															},
+															ArgumentList: &node.ArgumentList{
+																Position: &position.Position{
+																	StartLine: 237,
+																	EndLine: 237,
+																	StartPos: 5362,
+																	EndPos: 5364,
+																},
+															},
+														},
+													},
+												},
+												&stmt.If{
+													Position: &position.Position{
+														StartLine: 238,
+														EndLine: 240,
+														StartPos: 5382,
+														EndPos: 5471,
+													},
+													Cond: &expr.Isset{
+														Position: &position.Position{
+															StartLine: 238,
+															EndLine: 238,
+															StartPos: 5386,
+															EndPos: 5407,
+														},
+														Variables: []node.Node{
+															&expr.PropertyFetch{
+																Position: &position.Position{
+																	StartLine: 238,
+																	EndLine: 238,
+																	StartPos: 5392,
+																	EndPos: 5406,
+																},
+																Variable: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 238,
+																		EndLine: 238,
+																		StartPos: 5392,
+																		EndPos: 5400,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 238,
+																			EndLine: 238,
+																			StartPos: 5392,
+																			EndPos: 5400,
+																		},
+																		Value: "details",
+																	},
+																},
+																Property: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 238,
+																		EndLine: 238,
+																		StartPos: 5402,
+																		EndPos: 5406,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 238,
+																			EndLine: 238,
+																			StartPos: 5402,
+																			EndPos: 5406,
+																		},
+																		Value: "key",
+																	},
+																},
+															},
+														},
+													},
+													Stmt: &stmt.StmtList{
+														Position: &position.Position{
+															StartLine: 238,
+															EndLine: 240,
+															StartPos: 5409,
+															EndPos: 5471,
+														},
+														Stmts: []node.Node{
+															&stmt.Return{
+																Position: &position.Position{
+																	StartLine: 239,
+																	EndLine: 239,
+																	StartPos: 5431,
+																	EndPos: 5453,
+																},
+																Expr: &expr.PropertyFetch{
+																	Position: &position.Position{
+																		StartLine: 239,
+																		EndLine: 239,
+																		StartPos: 5438,
+																		EndPos: 5452,
+																	},
+																	Variable: &expr.Variable{
+																		Position: &position.Position{
+																			StartLine: 239,
+																			EndLine: 239,
+																			StartPos: 5438,
+																			EndPos: 5446,
+																		},
+																		VarName: &node.Identifier{
+																			Position: &position.Position{
+																				StartLine: 239,
+																				EndLine: 239,
+																				StartPos: 5438,
+																				EndPos: 5446,
+																			},
+																			Value: "details",
+																		},
+																	},
+																	Property: &expr.Variable{
+																		Position: &position.Position{
+																			StartLine: 239,
+																			EndLine: 239,
+																			StartPos: 5448,
+																			EndPos: 5452,
+																		},
+																		VarName: &node.Identifier{
+																			Position: &position.Position{
+																				StartLine: 239,
+																				EndLine: 239,
+																				StartPos: 5448,
+																				EndPos: 5452,
+																			},
+																			Value: "key",
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.Return{
+								Position: &position.Position{
+									StartLine: 243,
+									EndLine: 243,
+									StartPos: 5491,
+									EndPos: 5503,
+								},
+								Expr: &expr.ConstFetch{
+									Position: &position.Position{
+										StartLine: 243,
+										EndLine: 243,
+										StartPos: 5498,
+										EndPos: 5502,
+									},
+									Constant: &name.Name{
+										Position: &position.Position{
+											StartLine: 243,
+											EndLine: 243,
+											StartPos: 5498,
+											EndPos: 5502,
+										},
+										Parts: []node.Node{
+											&name.NamePart{
+												Position: &position.Position{
+													StartLine: 243,
+													EndLine: 243,
+													StartPos: 5498,
+													EndPos: 5502,
+												},
+												Value: "null",
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				&stmt.ClassMethod{
+					Position: &position.Position{
+						StartLine: 257,
+						EndLine: 283,
+						StartPos: 5815,
+						EndPos: 6560,
+					},
+					PhpDocComment: "",
+					ReturnsRef: false,
+					MethodName: &node.Identifier{
+						Position: &position.Position{
+							StartLine: 257,
+							EndLine: 257,
+							StartPos: 5831,
+							EndPos: 5838,
+						},
+						Value: "__isset",
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 257,
+								EndLine: 257,
+								StartPos: 5815,
+								EndPos: 5821,
+							},
+							Value: "public",
+						},
+					},
+					Params: []node.Node{
+						&node.Parameter{
+							Position: &position.Position{
+								StartLine: 257,
+								EndLine: 257,
+								StartPos: 5839,
+								EndPos: 5843,
+							},
+							ByRef: false,
+							Variadic: false,
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 257,
+									EndLine: 257,
+									StartPos: 5839,
+									EndPos: 5843,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 257,
+										EndLine: 257,
+										StartPos: 5839,
+										EndPos: 5843,
+									},
+									Value: "key",
+								},
+							},
+						},
+					},
+					Stmt: &stmt.StmtList{
+						Position: &position.Position{
+							StartLine: 258,
+							EndLine: 283,
+							StartPos: 5849,
+							EndPos: 6560,
+						},
+						Stmts: []node.Node{
+							&stmt.Switch{
+								Position: &position.Position{
+									StartLine: 259,
+									EndLine: 280,
+									StartPos: 5859,
+									EndPos: 6531,
+								},
+								Cond: &expr.Variable{
+									Position: &position.Position{
+										StartLine: 259,
+										EndLine: 259,
+										StartPos: 5867,
+										EndPos: 5871,
+									},
+									VarName: &node.Identifier{
+										Position: &position.Position{
+											StartLine: 259,
+											EndLine: 259,
+											StartPos: 5867,
+											EndPos: 5871,
+										},
+										Value: "key",
+									},
+								},
+								CaseList: &stmt.CaseList{
+									Position: &position.Position{
+										StartLine: 259,
+										EndLine: 280,
+										StartPos: 5873,
+										EndPos: 6531,
+									},
+									Cases: []node.Node{
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 260,
+												EndLine: -1,
+												StartPos: 5887,
+												EndPos: -1,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 260,
+													EndLine: 260,
+													StartPos: 5892,
+													EndPos: 5896,
+												},
+												Value: "'id'",
+											},
+											Stmts: []node.Node{
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 261,
+												EndLine: 262,
+												StartPos: 5910,
+												EndPos: 5957,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 261,
+													EndLine: 261,
+													StartPos: 5915,
+													EndPos: 5927,
+												},
+												Value: "'network_id'",
+											},
+											Stmts: []node.Node{
+												&stmt.Return{
+													Position: &position.Position{
+														StartLine: 262,
+														EndLine: 262,
+														StartPos: 5945,
+														EndPos: 5957,
+													},
+													Expr: &expr.ConstFetch{
+														Position: &position.Position{
+															StartLine: 262,
+															EndLine: 262,
+															StartPos: 5952,
+															EndPos: 5956,
+														},
+														Constant: &name.Name{
+															Position: &position.Position{
+																StartLine: 262,
+																EndLine: 262,
+																StartPos: 5952,
+																EndPos: 5956,
+															},
+															Parts: []node.Node{
+																&name.NamePart{
+																	Position: &position.Position{
+																		StartLine: 262,
+																		EndLine: 262,
+																		StartPos: 5952,
+																		EndPos: 5956,
+																	},
+																	Value: "true",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 263,
+												EndLine: -1,
+												StartPos: 5970,
+												EndPos: -1,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 263,
+													EndLine: 263,
+													StartPos: 5975,
+													EndPos: 5985,
+												},
+												Value: "'blogname'",
+											},
+											Stmts: []node.Node{
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 264,
+												EndLine: -1,
+												StartPos: 5999,
+												EndPos: -1,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 264,
+													EndLine: 264,
+													StartPos: 6004,
+													EndPos: 6013,
+												},
+												Value: "'siteurl'",
+											},
+											Stmts: []node.Node{
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 265,
+												EndLine: -1,
+												StartPos: 6027,
+												EndPos: -1,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 265,
+													EndLine: 265,
+													StartPos: 6032,
+													EndPos: 6044,
+												},
+												Value: "'post_count'",
+											},
+											Stmts: []node.Node{
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 266,
+												EndLine: 270,
+												StartPos: 6058,
+												EndPos: 6200,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 266,
+													EndLine: 266,
+													StartPos: 6063,
+													EndPos: 6069,
+												},
+												Value: "'home'",
+											},
+											Stmts: []node.Node{
+												&stmt.If{
+													Position: &position.Position{
+														StartLine: 267,
+														EndLine: 269,
+														StartPos: 6087,
+														EndPos: 6171,
+													},
+													Cond: &expr.BooleanNot{
+														Position: &position.Position{
+															StartLine: 267,
+															EndLine: 267,
+															StartPos: 6091,
+															EndPos: 6116,
+														},
+														Expr: &expr.FunctionCall{
+															Position: &position.Position{
+																StartLine: 267,
+																EndLine: 267,
+																StartPos: 6093,
+																EndPos: 6116,
+															},
+															Function: &name.Name{
+																Position: &position.Position{
+																	StartLine: 267,
+																	EndLine: 267,
+																	StartPos: 6093,
+																	EndPos: 6103,
+																},
+																Parts: []node.Node{
+																	&name.NamePart{
+																		Position: &position.Position{
+																			StartLine: 267,
+																			EndLine: 267,
+																			StartPos: 6093,
+																			EndPos: 6103,
+																		},
+																		Value: "did_action",
+																	},
+																},
+															},
+															ArgumentList: &node.ArgumentList{
+																Position: &position.Position{
+																	StartLine: 267,
+																	EndLine: 267,
+																	StartPos: 6103,
+																	EndPos: 6116,
+																},
+																Arguments: []node.Node{
+																	&node.Argument{
+																		Position: &position.Position{
+																			StartLine: 267,
+																			EndLine: 267,
+																			StartPos: 6104,
+																			EndPos: 6115,
+																		},
+																		Variadic: false,
+																		IsReference: false,
+																		Expr: &scalar.String{
+																			Position: &position.Position{
+																				StartLine: 267,
+																				EndLine: 267,
+																				StartPos: 6104,
+																				EndPos: 6115,
+																			},
+																			Value: "'ms_loaded'",
+																		},
+																	},
+																},
+															},
+														},
+													},
+													Stmt: &stmt.StmtList{
+														Position: &position.Position{
+															StartLine: 267,
+															EndLine: 269,
+															StartPos: 6118,
+															EndPos: 6171,
+														},
+														Stmts: []node.Node{
+															&stmt.Return{
+																Position: &position.Position{
+																	StartLine: 268,
+																	EndLine: 268,
+																	StartPos: 6140,
+																	EndPos: 6153,
+																},
+																Expr: &expr.ConstFetch{
+																	Position: &position.Position{
+																		StartLine: 268,
+																		EndLine: 268,
+																		StartPos: 6147,
+																		EndPos: 6152,
+																	},
+																	Constant: &name.Name{
+																		Position: &position.Position{
+																			StartLine: 268,
+																			EndLine: 268,
+																			StartPos: 6147,
+																			EndPos: 6152,
+																		},
+																		Parts: []node.Node{
+																			&name.NamePart{
+																				Position: &position.Position{
+																					StartLine: 268,
+																					EndLine: 268,
+																					StartPos: 6147,
+																					EndPos: 6152,
+																				},
+																				Value: "false",
+																			},
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												&stmt.Return{
+													Position: &position.Position{
+														StartLine: 270,
+														EndLine: 270,
+														StartPos: 6188,
+														EndPos: 6200,
+													},
+													Expr: &expr.ConstFetch{
+														Position: &position.Position{
+															StartLine: 270,
+															EndLine: 270,
+															StartPos: 6195,
+															EndPos: 6199,
+														},
+														Constant: &name.Name{
+															Position: &position.Position{
+																StartLine: 270,
+																EndLine: 270,
+																StartPos: 6195,
+																EndPos: 6199,
+															},
+															Parts: []node.Node{
+																&name.NamePart{
+																	Position: &position.Position{
+																		StartLine: 270,
+																		EndLine: 270,
+																		StartPos: 6195,
+																		EndPos: 6199,
+																	},
+																	Value: "true",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Default{
+											Position: &position.Position{
+												StartLine: 271,
+												EndLine: 279,
+												StartPos: 6213,
+												EndPos: 6521,
+											},
+											Stmts: []node.Node{
+												&stmt.If{
+													Position: &position.Position{
+														StartLine: 272,
+														EndLine: 274,
+														StartPos: 6291,
+														EndPos: 6375,
+													},
+													Cond: &expr.BooleanNot{
+														Position: &position.Position{
+															StartLine: 272,
+															EndLine: 272,
+															StartPos: 6295,
+															EndPos: 6320,
+														},
+														Expr: &expr.FunctionCall{
+															Position: &position.Position{
+																StartLine: 272,
+																EndLine: 272,
+																StartPos: 6297,
+																EndPos: 6320,
+															},
+															Function: &name.Name{
+																Position: &position.Position{
+																	StartLine: 272,
+																	EndLine: 272,
+																	StartPos: 6297,
+																	EndPos: 6307,
+																},
+																Parts: []node.Node{
+																	&name.NamePart{
+																		Position: &position.Position{
+																			StartLine: 272,
+																			EndLine: 272,
+																			StartPos: 6297,
+																			EndPos: 6307,
+																		},
+																		Value: "did_action",
+																	},
+																},
+															},
+															ArgumentList: &node.ArgumentList{
+																Position: &position.Position{
+																	StartLine: 272,
+																	EndLine: 272,
+																	StartPos: 6307,
+																	EndPos: 6320,
+																},
+																Arguments: []node.Node{
+																	&node.Argument{
+																		Position: &position.Position{
+																			StartLine: 272,
+																			EndLine: 272,
+																			StartPos: 6308,
+																			EndPos: 6319,
+																		},
+																		Variadic: false,
+																		IsReference: false,
+																		Expr: &scalar.String{
+																			Position: &position.Position{
+																				StartLine: 272,
+																				EndLine: 272,
+																				StartPos: 6308,
+																				EndPos: 6319,
+																			},
+																			Value: "'ms_loaded'",
+																		},
+																	},
+																},
+															},
+														},
+													},
+													Stmt: &stmt.StmtList{
+														Position: &position.Position{
+															StartLine: 272,
+															EndLine: 274,
+															StartPos: 6322,
+															EndPos: 6375,
+														},
+														Stmts: []node.Node{
+															&stmt.Return{
+																Position: &position.Position{
+																	StartLine: 273,
+																	EndLine: 273,
+																	StartPos: 6344,
+																	EndPos: 6357,
+																},
+																Expr: &expr.ConstFetch{
+																	Position: &position.Position{
+																		StartLine: 273,
+																		EndLine: 273,
+																		StartPos: 6351,
+																		EndPos: 6356,
+																	},
+																	Constant: &name.Name{
+																		Position: &position.Position{
+																			StartLine: 273,
+																			EndLine: 273,
+																			StartPos: 6351,
+																			EndPos: 6356,
+																		},
+																		Parts: []node.Node{
+																			&name.NamePart{
+																				Position: &position.Position{
+																					StartLine: 273,
+																					EndLine: 273,
+																					StartPos: 6351,
+																					EndPos: 6356,
+																				},
+																				Value: "false",
+																			},
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+												&stmt.Expression{
+													Position: &position.Position{
+														StartLine: 276,
+														EndLine: 276,
+														StartPos: 6393,
+														EndPos: 6425,
+													},
+													Expr: &assign.Assign{
+														Position: &position.Position{
+															StartLine: 276,
+															EndLine: 276,
+															StartPos: 6393,
+															EndPos: 6424,
+														},
+														Variable: &expr.Variable{
+															Position: &position.Position{
+																StartLine: 276,
+																EndLine: 276,
+																StartPos: 6393,
+																EndPos: 6401,
+															},
+															VarName: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 276,
+																	EndLine: 276,
+																	StartPos: 6393,
+																	EndPos: 6401,
+																},
+																Value: "details",
+															},
+														},
+														Expression: &expr.MethodCall{
+															Position: &position.Position{
+																StartLine: 276,
+																EndLine: 276,
+																StartPos: 6404,
+																EndPos: 6424,
+															},
+															Variable: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 276,
+																	EndLine: 276,
+																	StartPos: 6404,
+																	EndPos: 6409,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 276,
+																		EndLine: 276,
+																		StartPos: 6404,
+																		EndPos: 6409,
+																	},
+																	Value: "this",
+																},
+															},
+															Method: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 276,
+																	EndLine: 276,
+																	StartPos: 6411,
+																	EndPos: 6422,
+																},
+																Value: "get_details",
+															},
+															ArgumentList: &node.ArgumentList{
+																Position: &position.Position{
+																	StartLine: 276,
+																	EndLine: 276,
+																	StartPos: 6422,
+																	EndPos: 6424,
+																},
+															},
+														},
+													},
+												},
+												&stmt.If{
+													Position: &position.Position{
+														StartLine: 277,
+														EndLine: 279,
+														StartPos: 6442,
+														EndPos: 6521,
+													},
+													Cond: &expr.Isset{
+														Position: &position.Position{
+															StartLine: 277,
+															EndLine: 277,
+															StartPos: 6446,
+															EndPos: 6467,
+														},
+														Variables: []node.Node{
+															&expr.PropertyFetch{
+																Position: &position.Position{
+																	StartLine: 277,
+																	EndLine: 277,
+																	StartPos: 6452,
+																	EndPos: 6466,
+																},
+																Variable: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 277,
+																		EndLine: 277,
+																		StartPos: 6452,
+																		EndPos: 6460,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 277,
+																			EndLine: 277,
+																			StartPos: 6452,
+																			EndPos: 6460,
+																		},
+																		Value: "details",
+																	},
+																},
+																Property: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 277,
+																		EndLine: 277,
+																		StartPos: 6462,
+																		EndPos: 6466,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 277,
+																			EndLine: 277,
+																			StartPos: 6462,
+																			EndPos: 6466,
+																		},
+																		Value: "key",
+																	},
+																},
+															},
+														},
+													},
+													Stmt: &stmt.StmtList{
+														Position: &position.Position{
+															StartLine: 277,
+															EndLine: 279,
+															StartPos: 6469,
+															EndPos: 6521,
+														},
+														Stmts: []node.Node{
+															&stmt.Return{
+																Position: &position.Position{
+																	StartLine: 278,
+																	EndLine: 278,
+																	StartPos: 6491,
+																	EndPos: 6503,
+																},
+																Expr: &expr.ConstFetch{
+																	Position: &position.Position{
+																		StartLine: 278,
+																		EndLine: 278,
+																		StartPos: 6498,
+																		EndPos: 6502,
+																	},
+																	Constant: &name.Name{
+																		Position: &position.Position{
+																			StartLine: 278,
+																			EndLine: 278,
+																			StartPos: 6498,
+																			EndPos: 6502,
+																		},
+																		Parts: []node.Node{
+																			&name.NamePart{
+																				Position: &position.Position{
+																					StartLine: 278,
+																					EndLine: 278,
+																					StartPos: 6498,
+																					EndPos: 6502,
+																				},
+																				Value: "true",
+																			},
+																		},
+																	},
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.Return{
+								Position: &position.Position{
+									StartLine: 282,
+									EndLine: 282,
+									StartPos: 6541,
+									EndPos: 6554,
+								},
+								Expr: &expr.ConstFetch{
+									Position: &position.Position{
+										StartLine: 282,
+										EndLine: 282,
+										StartPos: 6548,
+										EndPos: 6553,
+									},
+									Constant: &name.Name{
+										Position: &position.Position{
+											StartLine: 282,
+											EndLine: 282,
+											StartPos: 6548,
+											EndPos: 6553,
+										},
+										Parts: []node.Node{
+											&name.NamePart{
+												Position: &position.Position{
+													StartLine: 282,
+													EndLine: 282,
+													StartPos: 6548,
+													EndPos: 6553,
+												},
+												Value: "false",
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				&stmt.ClassMethod{
+					Position: &position.Position{
+						StartLine: 295,
+						EndLine: 307,
+						StartPos: 6821,
+						EndPos: 7161,
+					},
+					ReturnsRef: false,
+					PhpDocComment: "",
+					MethodName: &node.Identifier{
+						Position: &position.Position{
+							StartLine: 295,
+							EndLine: 295,
+							StartPos: 6837,
+							EndPos: 6842,
+						},
+						Value: "__set",
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 295,
+								EndLine: 295,
+								StartPos: 6821,
+								EndPos: 6827,
+							},
+							Value: "public",
+						},
+					},
+					Params: []node.Node{
+						&node.Parameter{
+							Position: &position.Position{
+								StartLine: 295,
+								EndLine: 295,
+								StartPos: 6843,
+								EndPos: 6847,
+							},
+							Variadic: false,
+							ByRef: false,
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 295,
+									EndLine: 295,
+									StartPos: 6843,
+									EndPos: 6847,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 295,
+										EndLine: 295,
+										StartPos: 6843,
+										EndPos: 6847,
+									},
+									Value: "key",
+								},
+							},
+						},
+						&node.Parameter{
+							Position: &position.Position{
+								StartLine: 295,
+								EndLine: 295,
+								StartPos: 6849,
+								EndPos: 6855,
+							},
+							ByRef: false,
+							Variadic: false,
+							Variable: &expr.Variable{
+								Position: &position.Position{
+									StartLine: 295,
+									EndLine: 295,
+									StartPos: 6849,
+									EndPos: 6855,
+								},
+								VarName: &node.Identifier{
+									Position: &position.Position{
+										StartLine: 295,
+										EndLine: 295,
+										StartPos: 6849,
+										EndPos: 6855,
+									},
+									Value: "value",
+								},
+							},
+						},
+					},
+					Stmt: &stmt.StmtList{
+						Position: &position.Position{
+							StartLine: 296,
+							EndLine: 307,
+							StartPos: 6861,
+							EndPos: 7161,
+						},
+						Stmts: []node.Node{
+							&stmt.Switch{
+								Position: &position.Position{
+									StartLine: 297,
+									EndLine: 306,
+									StartPos: 6871,
+									EndPos: 7155,
+								},
+								Cond: &expr.Variable{
+									Position: &position.Position{
+										StartLine: 297,
+										EndLine: 297,
+										StartPos: 6879,
+										EndPos: 6883,
+									},
+									VarName: &node.Identifier{
+										Position: &position.Position{
+											StartLine: 297,
+											EndLine: 297,
+											StartPos: 6879,
+											EndPos: 6883,
+										},
+										Value: "key",
+									},
+								},
+								CaseList: &stmt.CaseList{
+									Position: &position.Position{
+										StartLine: 297,
+										EndLine: 306,
+										StartPos: 6885,
+										EndPos: 7155,
+									},
+									Cases: []node.Node{
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 298,
+												EndLine: 300,
+												StartPos: 6899,
+												EndPos: 6982,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 298,
+													EndLine: 298,
+													StartPos: 6904,
+													EndPos: 6908,
+												},
+												Value: "'id'",
+											},
+											Stmts: []node.Node{
+												&stmt.Expression{
+													Position: &position.Position{
+														StartLine: 299,
+														EndLine: 299,
+														StartPos: 6926,
+														EndPos: 6959,
+													},
+													Expr: &assign.Assign{
+														Position: &position.Position{
+															StartLine: 299,
+															EndLine: 299,
+															StartPos: 6926,
+															EndPos: 6958,
+														},
+														Variable: &expr.PropertyFetch{
+															Position: &position.Position{
+																StartLine: 299,
+																EndLine: 299,
+																StartPos: 6926,
+																EndPos: 6940,
+															},
+															Variable: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 299,
+																	EndLine: 299,
+																	StartPos: 6926,
+																	EndPos: 6931,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 299,
+																		EndLine: 299,
+																		StartPos: 6926,
+																		EndPos: 6931,
+																	},
+																	Value: "this",
+																},
+															},
+															Property: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 299,
+																	EndLine: 299,
+																	StartPos: 6933,
+																	EndPos: 6940,
+																},
+																Value: "blog_id",
+															},
+														},
+														Expression: &cast.String{
+															Position: &position.Position{
+																StartLine: 299,
+																EndLine: 299,
+																StartPos: 6943,
+																EndPos: 6958,
+															},
+															Expr: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 299,
+																	EndLine: 299,
+																	StartPos: 6952,
+																	EndPos: 6958,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 299,
+																		EndLine: 299,
+																		StartPos: 6952,
+																		EndPos: 6958,
+																	},
+																	Value: "value",
+																},
+															},
+														},
+													},
+												},
+												&stmt.Break{
+													Position: &position.Position{
+														StartLine: 300,
+														EndLine: 300,
+														StartPos: 6976,
+														EndPos: 6982,
+													},
+												},
+											},
+										},
+										&stmt.Case{
+											Position: &position.Position{
+												StartLine: 301,
+												EndLine: 303,
+												StartPos: 6995,
+												EndPos: 7086,
+											},
+											Cond: &scalar.String{
+												Position: &position.Position{
+													StartLine: 301,
+													EndLine: 301,
+													StartPos: 7000,
+													EndPos: 7012,
+												},
+												Value: "'network_id'",
+											},
+											Stmts: []node.Node{
+												&stmt.Expression{
+													Position: &position.Position{
+														StartLine: 302,
+														EndLine: 302,
+														StartPos: 7030,
+														EndPos: 7063,
+													},
+													Expr: &assign.Assign{
+														Position: &position.Position{
+															StartLine: 302,
+															EndLine: 302,
+															StartPos: 7030,
+															EndPos: 7062,
+														},
+														Variable: &expr.PropertyFetch{
+															Position: &position.Position{
+																StartLine: 302,
+																EndLine: 302,
+																StartPos: 7030,
+																EndPos: 7044,
+															},
+															Variable: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 302,
+																	EndLine: 302,
+																	StartPos: 7030,
+																	EndPos: 7035,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 302,
+																		EndLine: 302,
+																		StartPos: 7030,
+																		EndPos: 7035,
+																	},
+																	Value: "this",
+																},
+															},
+															Property: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 302,
+																	EndLine: 302,
+																	StartPos: 7037,
+																	EndPos: 7044,
+																},
+																Value: "site_id",
+															},
+														},
+														Expression: &cast.String{
+															Position: &position.Position{
+																StartLine: 302,
+																EndLine: 302,
+																StartPos: 7047,
+																EndPos: 7062,
+															},
+															Expr: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 302,
+																	EndLine: 302,
+																	StartPos: 7056,
+																	EndPos: 7062,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 302,
+																		EndLine: 302,
+																		StartPos: 7056,
+																		EndPos: 7062,
+																	},
+																	Value: "value",
+																},
+															},
+														},
+													},
+												},
+												&stmt.Break{
+													Position: &position.Position{
+														StartLine: 303,
+														EndLine: 303,
+														StartPos: 7080,
+														EndPos: 7086,
+													},
+												},
+											},
+										},
+										&stmt.Default{
+											Position: &position.Position{
+												StartLine: 304,
+												EndLine: 305,
+												StartPos: 7099,
+												EndPos: 7145,
+											},
+											Stmts: []node.Node{
+												&stmt.Expression{
+													Position: &position.Position{
+														StartLine: 305,
+														EndLine: 305,
+														StartPos: 7124,
+														EndPos: 7145,
+													},
+													Expr: &assign.Assign{
+														Position: &position.Position{
+															StartLine: 305,
+															EndLine: 305,
+															StartPos: 7124,
+															EndPos: 7144,
+														},
+														Variable: &expr.PropertyFetch{
+															Position: &position.Position{
+																StartLine: 305,
+																EndLine: 305,
+																StartPos: 7124,
+																EndPos: 7135,
+															},
+															Variable: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 305,
+																	EndLine: 305,
+																	StartPos: 7124,
+																	EndPos: 7129,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 305,
+																		EndLine: 305,
+																		StartPos: 7124,
+																		EndPos: 7129,
+																	},
+																	Value: "this",
+																},
+															},
+															Property: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 305,
+																	EndLine: 305,
+																	StartPos: 7131,
+																	EndPos: 7135,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 305,
+																		EndLine: 305,
+																		StartPos: 7131,
+																		EndPos: 7135,
+																	},
+																	Value: "key",
+																},
+															},
+														},
+														Expression: &expr.Variable{
+															Position: &position.Position{
+																StartLine: 305,
+																EndLine: 305,
+																StartPos: 7138,
+																EndPos: 7144,
+															},
+															VarName: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 305,
+																	EndLine: 305,
+																	StartPos: 7138,
+																	EndPos: 7144,
+																},
+																Value: "value",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+				&stmt.ClassMethod{
+					Position: &position.Position{
+						StartLine: 320,
+						EndLine: 353,
+						StartPos: 7459,
+						EndPos: 8680,
+					},
+					ReturnsRef: false,
+					PhpDocComment: "",
+					MethodName: &node.Identifier{
+						Position: &position.Position{
+							StartLine: 320,
+							EndLine: 320,
+							StartPos: 7476,
+							EndPos: 7487,
+						},
+						Value: "get_details",
+					},
+					Modifiers: []node.Node{
+						&node.Identifier{
+							Position: &position.Position{
+								StartLine: 320,
+								EndLine: 320,
+								StartPos: 7459,
+								EndPos: 7466,
+							},
+							Value: "private",
+						},
+					},
+					Stmt: &stmt.StmtList{
+						Position: &position.Position{
+							StartLine: 321,
+							EndLine: 353,
+							StartPos: 7494,
+							EndPos: 8680,
+						},
+						Stmts: []node.Node{
+							&stmt.Expression{
+								Position: &position.Position{
+									StartLine: 322,
+									EndLine: 322,
+									StartPos: 7504,
+									EndPos: 7560,
+								},
+								Expr: &assign.Assign{
+									Position: &position.Position{
+										StartLine: 322,
+										EndLine: 322,
+										StartPos: 7504,
+										EndPos: 7559,
+									},
+									Variable: &expr.Variable{
+										Position: &position.Position{
+											StartLine: 322,
+											EndLine: 322,
+											StartPos: 7504,
+											EndPos: 7512,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 322,
+												EndLine: 322,
+												StartPos: 7504,
+												EndPos: 7512,
+											},
+											Value: "details",
+										},
+									},
+									Expression: &expr.FunctionCall{
+										Position: &position.Position{
+											StartLine: 322,
+											EndLine: 322,
+											StartPos: 7515,
+											EndPos: 7559,
+										},
+										Function: &name.Name{
+											Position: &position.Position{
+												StartLine: 322,
+												EndLine: 322,
+												StartPos: 7515,
+												EndPos: 7527,
+											},
+											Parts: []node.Node{
+												&name.NamePart{
+													Position: &position.Position{
+														StartLine: 322,
+														EndLine: 322,
+														StartPos: 7515,
+														EndPos: 7527,
+													},
+													Value: "wp_cache_get",
+												},
+											},
+										},
+										ArgumentList: &node.ArgumentList{
+											Position: &position.Position{
+												StartLine: 322,
+												EndLine: 322,
+												StartPos: 7527,
+												EndPos: 7559,
+											},
+											Arguments: []node.Node{
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 322,
+														EndLine: 322,
+														StartPos: 7528,
+														EndPos: 7542,
+													},
+													Variadic: false,
+													IsReference: false,
+													Expr: &expr.PropertyFetch{
+														Position: &position.Position{
+															StartLine: 322,
+															EndLine: 322,
+															StartPos: 7528,
+															EndPos: 7542,
+														},
+														Variable: &expr.Variable{
+															Position: &position.Position{
+																StartLine: 322,
+																EndLine: 322,
+																StartPos: 7528,
+																EndPos: 7533,
+															},
+															VarName: &node.Identifier{
+																Position: &position.Position{
+																	StartLine: 322,
+																	EndLine: 322,
+																	StartPos: 7528,
+																	EndPos: 7533,
+																},
+																Value: "this",
+															},
+														},
+														Property: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 322,
+																EndLine: 322,
+																StartPos: 7535,
+																EndPos: 7542,
+															},
+															Value: "blog_id",
+														},
+													},
+												},
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 322,
+														EndLine: 322,
+														StartPos: 7544,
+														EndPos: 7558,
+													},
+													Variadic: false,
+													IsReference: false,
+													Expr: &scalar.String{
+														Position: &position.Position{
+															StartLine: 322,
+															EndLine: 322,
+															StartPos: 7544,
+															EndPos: 7558,
+														},
+														Value: "'site-details'",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.If{
+								Position: &position.Position{
+									StartLine: 324,
+									EndLine: 338,
+									StartPos: 7570,
+									EndPos: 8244,
+								},
+								Cond: &binary.Identical{
+									Position: &position.Position{
+										StartLine: 324,
+										EndLine: 324,
+										StartPos: 7574,
+										EndPos: 7592,
+									},
+									Left: &expr.ConstFetch{
+										Position: &position.Position{
+											StartLine: 324,
+											EndLine: 324,
+											StartPos: 7574,
+											EndPos: 7579,
+										},
+										Constant: &name.Name{
+											Position: &position.Position{
+												StartLine: 324,
+												EndLine: 324,
+												StartPos: 7574,
+												EndPos: 7579,
+											},
+											Parts: []node.Node{
+												&name.NamePart{
+													Position: &position.Position{
+														StartLine: 324,
+														EndLine: 324,
+														StartPos: 7574,
+														EndPos: 7579,
+													},
+													Value: "false",
+												},
+											},
+										},
+									},
+									Right: &expr.Variable{
+										Position: &position.Position{
+											StartLine: 324,
+											EndLine: 324,
+											StartPos: 7584,
+											EndPos: 7592,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 324,
+												EndLine: 324,
+												StartPos: 7584,
+												EndPos: 7592,
+											},
+											Value: "details",
+										},
+									},
+								},
+								Stmt: &stmt.StmtList{
+									Position: &position.Position{
+										StartLine: 324,
+										EndLine: 338,
+										StartPos: 7594,
+										EndPos: 8244,
+									},
+									Stmts: []node.Node{
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 325,
+												EndLine: 325,
+												StartPos: 7608,
+												EndPos: 7639,
+											},
+											Expr: &expr.FunctionCall{
+												Position: &position.Position{
+													StartLine: 325,
+													EndLine: 325,
+													StartPos: 7608,
+													EndPos: 7638,
+												},
+												Function: &name.Name{
+													Position: &position.Position{
+														StartLine: 325,
+														EndLine: 325,
+														StartPos: 7608,
+														EndPos: 7622,
+													},
+													Parts: []node.Node{
+														&name.NamePart{
+															Position: &position.Position{
+																StartLine: 325,
+																EndLine: 325,
+																StartPos: 7608,
+																EndPos: 7622,
+															},
+															Value: "switch_to_blog",
+														},
+													},
+												},
+												ArgumentList: &node.ArgumentList{
+													Position: &position.Position{
+														StartLine: 325,
+														EndLine: 325,
+														StartPos: 7622,
+														EndPos: 7638,
+													},
+													Arguments: []node.Node{
+														&node.Argument{
+															Position: &position.Position{
+																StartLine: 325,
+																EndLine: 325,
+																StartPos: 7623,
+																EndPos: 7637,
+															},
+															Variadic: false,
+															IsReference: false,
+															Expr: &expr.PropertyFetch{
+																Position: &position.Position{
+																	StartLine: 325,
+																	EndLine: 325,
+																	StartPos: 7623,
+																	EndPos: 7637,
+																},
+																Variable: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 325,
+																		EndLine: 325,
+																		StartPos: 7623,
+																		EndPos: 7628,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 325,
+																			EndLine: 325,
+																			StartPos: 7623,
+																			EndPos: 7628,
+																		},
+																		Value: "this",
+																	},
+																},
+																Property: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 325,
+																		EndLine: 325,
+																		StartPos: 7630,
+																		EndPos: 7637,
+																	},
+																	Value: "blog_id",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 327,
+												EndLine: 327,
+												StartPos: 7750,
+												EndPos: 7776,
+											},
+											Expr: &assign.Assign{
+												Position: &position.Position{
+													StartLine: 327,
+													EndLine: 327,
+													StartPos: 7750,
+													EndPos: 7775,
+												},
+												Variable: &expr.Variable{
+													Position: &position.Position{
+														StartLine: 327,
+														EndLine: 327,
+														StartPos: 7750,
+														EndPos: 7758,
+													},
+													VarName: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 327,
+															EndLine: 327,
+															StartPos: 7750,
+															EndPos: 7758,
+														},
+														Value: "details",
+													},
+												},
+												Expression: &expr.New{
+													Position: &position.Position{
+														StartLine: 327,
+														EndLine: 327,
+														StartPos: 7761,
+														EndPos: 7775,
+													},
+													Class: &name.Name{
+														Position: &position.Position{
+															StartLine: 327,
+															EndLine: 327,
+															StartPos: 7765,
+															EndPos: 7773,
+														},
+														Parts: []node.Node{
+															&name.NamePart{
+																Position: &position.Position{
+																	StartLine: 327,
+																	EndLine: 327,
+																	StartPos: 7765,
+																	EndPos: 7773,
+																},
+																Value: "stdClass",
+															},
+														},
+													},
+													ArgumentList: &node.ArgumentList{
+														Position: &position.Position{
+															StartLine: 327,
+															EndLine: 327,
+															StartPos: 7773,
+															EndPos: 7775,
+														},
+													},
+												},
+											},
+										},
+										&stmt.Foreach{
+											Position: &position.Position{
+												StartLine: 328,
+												EndLine: 330,
+												StartPos: 7789,
+												EndPos: 7896,
+											},
+											Expr: &expr.FunctionCall{
+												Position: &position.Position{
+													StartLine: 328,
+													EndLine: 328,
+													StartPos: 7798,
+													EndPos: 7820,
+												},
+												Function: &name.Name{
+													Position: &position.Position{
+														StartLine: 328,
+														EndLine: 328,
+														StartPos: 7798,
+														EndPos: 7813,
+													},
+													Parts: []node.Node{
+														&name.NamePart{
+															Position: &position.Position{
+																StartLine: 328,
+																EndLine: 328,
+																StartPos: 7798,
+																EndPos: 7813,
+															},
+															Value: "get_object_vars",
+														},
+													},
+												},
+												ArgumentList: &node.ArgumentList{
+													Position: &position.Position{
+														StartLine: 328,
+														EndLine: 328,
+														StartPos: 7813,
+														EndPos: 7820,
+													},
+													Arguments: []node.Node{
+														&node.Argument{
+															Position: &position.Position{
+																StartLine: 328,
+																EndLine: 328,
+																StartPos: 7814,
+																EndPos: 7819,
+															},
+															Variadic: false,
+															IsReference: false,
+															Expr: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 328,
+																	EndLine: 328,
+																	StartPos: 7814,
+																	EndPos: 7819,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 328,
+																		EndLine: 328,
+																		StartPos: 7814,
+																		EndPos: 7819,
+																	},
+																	Value: "this",
+																},
+															},
+														},
+													},
+												},
+											},
+											Key: &expr.Variable{
+												Position: &position.Position{
+													StartLine: 328,
+													EndLine: 328,
+													StartPos: 7824,
+													EndPos: 7828,
+												},
+												VarName: &node.Identifier{
+													Position: &position.Position{
+														StartLine: 328,
+														EndLine: 328,
+														StartPos: 7824,
+														EndPos: 7828,
+													},
+													Value: "key",
+												},
+											},
+											Variable: &expr.Variable{
+												Position: &position.Position{
+													StartLine: 328,
+													EndLine: 328,
+													StartPos: 7832,
+													EndPos: 7838,
+												},
+												VarName: &node.Identifier{
+													Position: &position.Position{
+														StartLine: 328,
+														EndLine: 328,
+														StartPos: 7832,
+														EndPos: 7838,
+													},
+													Value: "value",
+												},
+											},
+											Stmt: &stmt.StmtList{
+												Position: &position.Position{
+													StartLine: 328,
+													EndLine: 330,
+													StartPos: 7840,
+													EndPos: 7896,
+												},
+												Stmts: []node.Node{
+													&stmt.Expression{
+														Position: &position.Position{
+															StartLine: 329,
+															EndLine: 329,
+															StartPos: 7858,
+															EndPos: 7882,
+														},
+														Expr: &assign.Assign{
+															Position: &position.Position{
+																StartLine: 329,
+																EndLine: 329,
+																StartPos: 7858,
+																EndPos: 7881,
+															},
+															Variable: &expr.PropertyFetch{
+																Position: &position.Position{
+																	StartLine: 329,
+																	EndLine: 329,
+																	StartPos: 7858,
+																	EndPos: 7872,
+																},
+																Variable: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 329,
+																		EndLine: 329,
+																		StartPos: 7858,
+																		EndPos: 7866,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 329,
+																			EndLine: 329,
+																			StartPos: 7858,
+																			EndPos: 7866,
+																		},
+																		Value: "details",
+																	},
+																},
+																Property: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 329,
+																		EndLine: 329,
+																		StartPos: 7868,
+																		EndPos: 7872,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 329,
+																			EndLine: 329,
+																			StartPos: 7868,
+																			EndPos: 7872,
+																		},
+																		Value: "key",
+																	},
+																},
+															},
+															Expression: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 329,
+																	EndLine: 329,
+																	StartPos: 7875,
+																	EndPos: 7881,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 329,
+																		EndLine: 329,
+																		StartPos: 7875,
+																		EndPos: 7881,
+																	},
+																	Value: "value",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 331,
+												EndLine: 331,
+												StartPos: 7909,
+												EndPos: 7955,
+											},
+											Expr: &assign.Assign{
+												Position: &position.Position{
+													StartLine: 331,
+													EndLine: 331,
+													StartPos: 7909,
+													EndPos: 7954,
+												},
+												Variable: &expr.PropertyFetch{
+													Position: &position.Position{
+														StartLine: 331,
+														EndLine: 331,
+														StartPos: 7909,
+														EndPos: 7927,
+													},
+													Variable: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 331,
+															EndLine: 331,
+															StartPos: 7909,
+															EndPos: 7917,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 331,
+																EndLine: 331,
+																StartPos: 7909,
+																EndPos: 7917,
+															},
+															Value: "details",
+														},
+													},
+													Property: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 331,
+															EndLine: 331,
+															StartPos: 7919,
+															EndPos: 7927,
+														},
+														Value: "blogname",
+													},
+												},
+												Expression: &expr.FunctionCall{
+													Position: &position.Position{
+														StartLine: 331,
+														EndLine: 331,
+														StartPos: 7932,
+														EndPos: 7954,
+													},
+													Function: &name.Name{
+														Position: &position.Position{
+															StartLine: 331,
+															EndLine: 331,
+															StartPos: 7932,
+															EndPos: 7942,
+														},
+														Parts: []node.Node{
+															&name.NamePart{
+																Position: &position.Position{
+																	StartLine: 331,
+																	EndLine: 331,
+																	StartPos: 7932,
+																	EndPos: 7942,
+																},
+																Value: "get_option",
+															},
+														},
+													},
+													ArgumentList: &node.ArgumentList{
+														Position: &position.Position{
+															StartLine: 331,
+															EndLine: 331,
+															StartPos: 7942,
+															EndPos: 7954,
+														},
+														Arguments: []node.Node{
+															&node.Argument{
+																Position: &position.Position{
+																	StartLine: 331,
+																	EndLine: 331,
+																	StartPos: 7943,
+																	EndPos: 7953,
+																},
+																Variadic: false,
+																IsReference: false,
+																Expr: &scalar.String{
+																	Position: &position.Position{
+																		StartLine: 331,
+																		EndLine: 331,
+																		StartPos: 7943,
+																		EndPos: 7953,
+																	},
+																	Value: "'blogname'",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 332,
+												EndLine: 332,
+												StartPos: 7968,
+												EndPos: 8013,
+											},
+											Expr: &assign.Assign{
+												Position: &position.Position{
+													StartLine: 332,
+													EndLine: 332,
+													StartPos: 7968,
+													EndPos: 8012,
+												},
+												Variable: &expr.PropertyFetch{
+													Position: &position.Position{
+														StartLine: 332,
+														EndLine: 332,
+														StartPos: 7968,
+														EndPos: 7985,
+													},
+													Variable: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 332,
+															EndLine: 332,
+															StartPos: 7968,
+															EndPos: 7976,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 332,
+																EndLine: 332,
+																StartPos: 7968,
+																EndPos: 7976,
+															},
+															Value: "details",
+														},
+													},
+													Property: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 332,
+															EndLine: 332,
+															StartPos: 7978,
+															EndPos: 7985,
+														},
+														Value: "siteurl",
+													},
+												},
+												Expression: &expr.FunctionCall{
+													Position: &position.Position{
+														StartLine: 332,
+														EndLine: 332,
+														StartPos: 7991,
+														EndPos: 8012,
+													},
+													Function: &name.Name{
+														Position: &position.Position{
+															StartLine: 332,
+															EndLine: 332,
+															StartPos: 7991,
+															EndPos: 8001,
+														},
+														Parts: []node.Node{
+															&name.NamePart{
+																Position: &position.Position{
+																	StartLine: 332,
+																	EndLine: 332,
+																	StartPos: 7991,
+																	EndPos: 8001,
+																},
+																Value: "get_option",
+															},
+														},
+													},
+													ArgumentList: &node.ArgumentList{
+														Position: &position.Position{
+															StartLine: 332,
+															EndLine: 332,
+															StartPos: 8001,
+															EndPos: 8012,
+														},
+														Arguments: []node.Node{
+															&node.Argument{
+																Position: &position.Position{
+																	StartLine: 332,
+																	EndLine: 332,
+																	StartPos: 8002,
+																	EndPos: 8011,
+																},
+																Variadic: false,
+																IsReference: false,
+																Expr: &scalar.String{
+																	Position: &position.Position{
+																		StartLine: 332,
+																		EndLine: 332,
+																		StartPos: 8002,
+																		EndPos: 8011,
+																	},
+																	Value: "'siteurl'",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 333,
+												EndLine: 333,
+												StartPos: 8026,
+												EndPos: 8074,
+											},
+											Expr: &assign.Assign{
+												Position: &position.Position{
+													StartLine: 333,
+													EndLine: 333,
+													StartPos: 8026,
+													EndPos: 8073,
+												},
+												Variable: &expr.PropertyFetch{
+													Position: &position.Position{
+														StartLine: 333,
+														EndLine: 333,
+														StartPos: 8026,
+														EndPos: 8046,
+													},
+													Variable: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 333,
+															EndLine: 333,
+															StartPos: 8026,
+															EndPos: 8034,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 333,
+																EndLine: 333,
+																StartPos: 8026,
+																EndPos: 8034,
+															},
+															Value: "details",
+														},
+													},
+													Property: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 333,
+															EndLine: 333,
+															StartPos: 8036,
+															EndPos: 8046,
+														},
+														Value: "post_count",
+													},
+												},
+												Expression: &expr.FunctionCall{
+													Position: &position.Position{
+														StartLine: 333,
+														EndLine: 333,
+														StartPos: 8049,
+														EndPos: 8073,
+													},
+													Function: &name.Name{
+														Position: &position.Position{
+															StartLine: 333,
+															EndLine: 333,
+															StartPos: 8049,
+															EndPos: 8059,
+														},
+														Parts: []node.Node{
+															&name.NamePart{
+																Position: &position.Position{
+																	StartLine: 333,
+																	EndLine: 333,
+																	StartPos: 8049,
+																	EndPos: 8059,
+																},
+																Value: "get_option",
+															},
+														},
+													},
+													ArgumentList: &node.ArgumentList{
+														Position: &position.Position{
+															StartLine: 333,
+															EndLine: 333,
+															StartPos: 8059,
+															EndPos: 8073,
+														},
+														Arguments: []node.Node{
+															&node.Argument{
+																Position: &position.Position{
+																	StartLine: 333,
+																	EndLine: 333,
+																	StartPos: 8060,
+																	EndPos: 8072,
+																},
+																IsReference: false,
+																Variadic: false,
+																Expr: &scalar.String{
+																	Position: &position.Position{
+																		StartLine: 333,
+																		EndLine: 333,
+																		StartPos: 8060,
+																		EndPos: 8072,
+																	},
+																	Value: "'post_count'",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 334,
+												EndLine: 334,
+												StartPos: 8087,
+												EndPos: 8129,
+											},
+											Expr: &assign.Assign{
+												Position: &position.Position{
+													StartLine: 334,
+													EndLine: 334,
+													StartPos: 8087,
+													EndPos: 8128,
+												},
+												Variable: &expr.PropertyFetch{
+													Position: &position.Position{
+														StartLine: 334,
+														EndLine: 334,
+														StartPos: 8087,
+														EndPos: 8101,
+													},
+													Variable: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 334,
+															EndLine: 334,
+															StartPos: 8087,
+															EndPos: 8095,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 334,
+																EndLine: 334,
+																StartPos: 8087,
+																EndPos: 8095,
+															},
+															Value: "details",
+														},
+													},
+													Property: &node.Identifier{
+														Position: &position.Position{
+															StartLine: 334,
+															EndLine: 334,
+															StartPos: 8097,
+															EndPos: 8101,
+														},
+														Value: "home",
+													},
+												},
+												Expression: &expr.FunctionCall{
+													Position: &position.Position{
+														StartLine: 334,
+														EndLine: 334,
+														StartPos: 8110,
+														EndPos: 8128,
+													},
+													Function: &name.Name{
+														Position: &position.Position{
+															StartLine: 334,
+															EndLine: 334,
+															StartPos: 8110,
+															EndPos: 8120,
+														},
+														Parts: []node.Node{
+															&name.NamePart{
+																Position: &position.Position{
+																	StartLine: 334,
+																	EndLine: 334,
+																	StartPos: 8110,
+																	EndPos: 8120,
+																},
+																Value: "get_option",
+															},
+														},
+													},
+													ArgumentList: &node.ArgumentList{
+														Position: &position.Position{
+															StartLine: 334,
+															EndLine: 334,
+															StartPos: 8120,
+															EndPos: 8128,
+														},
+														Arguments: []node.Node{
+															&node.Argument{
+																Position: &position.Position{
+																	StartLine: 334,
+																	EndLine: 334,
+																	StartPos: 8121,
+																	EndPos: 8127,
+																},
+																Variadic: false,
+																IsReference: false,
+																Expr: &scalar.String{
+																	Position: &position.Position{
+																		StartLine: 334,
+																		EndLine: 334,
+																		StartPos: 8121,
+																		EndPos: 8127,
+																	},
+																	Value: "'home'",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 335,
+												EndLine: 335,
+												StartPos: 8142,
+												EndPos: 8165,
+											},
+											Expr: &expr.FunctionCall{
+												Position: &position.Position{
+													StartLine: 335,
+													EndLine: 335,
+													StartPos: 8142,
+													EndPos: 8164,
+												},
+												Function: &name.Name{
+													Position: &position.Position{
+														StartLine: 335,
+														EndLine: 335,
+														StartPos: 8142,
+														EndPos: 8162,
+													},
+													Parts: []node.Node{
+														&name.NamePart{
+															Position: &position.Position{
+																StartLine: 335,
+																EndLine: 335,
+																StartPos: 8142,
+																EndPos: 8162,
+															},
+															Value: "restore_current_blog",
+														},
+													},
+												},
+												ArgumentList: &node.ArgumentList{
+													Position: &position.Position{
+														StartLine: 335,
+														EndLine: 335,
+														StartPos: 8162,
+														EndPos: 8164,
+													},
+												},
+											},
+										},
+										&stmt.Expression{
+											Position: &position.Position{
+												StartLine: 337,
+												EndLine: 337,
+												StartPos: 8179,
+												EndPos: 8234,
+											},
+											Expr: &expr.FunctionCall{
+												Position: &position.Position{
+													StartLine: 337,
+													EndLine: 337,
+													StartPos: 8179,
+													EndPos: 8233,
+												},
+												Function: &name.Name{
+													Position: &position.Position{
+														StartLine: 337,
+														EndLine: 337,
+														StartPos: 8179,
+														EndPos: 8191,
+													},
+													Parts: []node.Node{
+														&name.NamePart{
+															Position: &position.Position{
+																StartLine: 337,
+																EndLine: 337,
+																StartPos: 8179,
+																EndPos: 8191,
+															},
+															Value: "wp_cache_set",
+														},
+													},
+												},
+												ArgumentList: &node.ArgumentList{
+													Position: &position.Position{
+														StartLine: 337,
+														EndLine: 337,
+														StartPos: 8191,
+														EndPos: 8233,
+													},
+													Arguments: []node.Node{
+														&node.Argument{
+															Position: &position.Position{
+																StartLine: 337,
+																EndLine: 337,
+																StartPos: 8192,
+																EndPos: 8206,
+															},
+															Variadic: false,
+															IsReference: false,
+															Expr: &expr.PropertyFetch{
+																Position: &position.Position{
+																	StartLine: 337,
+																	EndLine: 337,
+																	StartPos: 8192,
+																	EndPos: 8206,
+																},
+																Variable: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 337,
+																		EndLine: 337,
+																		StartPos: 8192,
+																		EndPos: 8197,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 337,
+																			EndLine: 337,
+																			StartPos: 8192,
+																			EndPos: 8197,
+																		},
+																		Value: "this",
+																	},
+																},
+																Property: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 337,
+																		EndLine: 337,
+																		StartPos: 8199,
+																		EndPos: 8206,
+																	},
+																	Value: "blog_id",
+																},
+															},
+														},
+														&node.Argument{
+															Position: &position.Position{
+																StartLine: 337,
+																EndLine: 337,
+																StartPos: 8208,
+																EndPos: 8216,
+															},
+															Variadic: false,
+															IsReference: false,
+															Expr: &expr.Variable{
+																Position: &position.Position{
+																	StartLine: 337,
+																	EndLine: 337,
+																	StartPos: 8208,
+																	EndPos: 8216,
+																},
+																VarName: &node.Identifier{
+																	Position: &position.Position{
+																		StartLine: 337,
+																		EndLine: 337,
+																		StartPos: 8208,
+																		EndPos: 8216,
+																	},
+																	Value: "details",
+																},
+															},
+														},
+														&node.Argument{
+															Position: &position.Position{
+																StartLine: 337,
+																EndLine: 337,
+																StartPos: 8218,
+																EndPos: 8232,
+															},
+															Variadic: false,
+															IsReference: false,
+															Expr: &scalar.String{
+																Position: &position.Position{
+																	StartLine: 337,
+																	EndLine: 337,
+																	StartPos: 8218,
+																	EndPos: 8232,
+																},
+																Value: "'site-details'",
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.Expression{
+								Position: &position.Position{
+									StartLine: 341,
+									EndLine: 341,
+									StartPos: 8323,
+									EndPos: 8414,
+								},
+								Expr: &assign.Assign{
+									Position: &position.Position{
+										StartLine: 341,
+										EndLine: 341,
+										StartPos: 8323,
+										EndPos: 8413,
+									},
+									Variable: &expr.Variable{
+										Position: &position.Position{
+											StartLine: 341,
+											EndLine: 341,
+											StartPos: 8323,
+											EndPos: 8331,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 341,
+												EndLine: 341,
+												StartPos: 8323,
+												EndPos: 8331,
+											},
+											Value: "details",
+										},
+									},
+									Expression: &expr.FunctionCall{
+										Position: &position.Position{
+											StartLine: 341,
+											EndLine: 341,
+											StartPos: 8334,
+											EndPos: 8413,
+										},
+										Function: &name.Name{
+											Position: &position.Position{
+												StartLine: 341,
+												EndLine: 341,
+												StartPos: 8334,
+												EndPos: 8358,
+											},
+											Parts: []node.Node{
+												&name.NamePart{
+													Position: &position.Position{
+														StartLine: 341,
+														EndLine: 341,
+														StartPos: 8334,
+														EndPos: 8358,
+													},
+													Value: "apply_filters_deprecated",
+												},
+											},
+										},
+										ArgumentList: &node.ArgumentList{
+											Position: &position.Position{
+												StartLine: 341,
+												EndLine: 341,
+												StartPos: 8358,
+												EndPos: 8413,
+											},
+											Arguments: []node.Node{
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 341,
+														EndLine: 341,
+														StartPos: 8359,
+														EndPos: 8373,
+													},
+													Variadic: false,
+													IsReference: false,
+													Expr: &scalar.String{
+														Position: &position.Position{
+															StartLine: 341,
+															EndLine: 341,
+															StartPos: 8359,
+															EndPos: 8373,
+														},
+														Value: "'blog_details'",
+													},
+												},
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 341,
+														EndLine: 341,
+														StartPos: 8375,
+														EndPos: 8387,
+													},
+													IsReference: false,
+													Variadic: false,
+													Expr: &expr.ShortArray{
+														Position: &position.Position{
+															StartLine: 341,
+															EndLine: 341,
+															StartPos: 8375,
+															EndPos: 8387,
+														},
+														Items: []node.Node{
+															&expr.ArrayItem{
+																Position: &position.Position{
+																	StartLine: 341,
+																	EndLine: 341,
+																	StartPos: 8377,
+																	EndPos: 8385,
+																},
+																Unpack: false,
+																Val: &expr.Variable{
+																	Position: &position.Position{
+																		StartLine: 341,
+																		EndLine: 341,
+																		StartPos: 8377,
+																		EndPos: 8385,
+																	},
+																	VarName: &node.Identifier{
+																		Position: &position.Position{
+																			StartLine: 341,
+																			EndLine: 341,
+																			StartPos: 8377,
+																			EndPos: 8385,
+																		},
+																		Value: "details",
+																	},
+																},
+															},
+														},
+													},
+												},
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 341,
+														EndLine: 341,
+														StartPos: 8389,
+														EndPos: 8396,
+													},
+													Variadic: false,
+													IsReference: false,
+													Expr: &scalar.String{
+														Position: &position.Position{
+															StartLine: 341,
+															EndLine: 341,
+															StartPos: 8389,
+															EndPos: 8396,
+														},
+														Value: "'4.7.0'",
+													},
+												},
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 341,
+														EndLine: 341,
+														StartPos: 8398,
+														EndPos: 8412,
+													},
+													Variadic: false,
+													IsReference: false,
+													Expr: &scalar.String{
+														Position: &position.Position{
+															StartLine: 341,
+															EndLine: 341,
+															StartPos: 8398,
+															EndPos: 8412,
+														},
+														Value: "'site_details'",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.Expression{
+								Position: &position.Position{
+									StartLine: 350,
+									EndLine: 350,
+									StartPos: 8597,
+									EndPos: 8648,
+								},
+								Expr: &assign.Assign{
+									Position: &position.Position{
+										StartLine: 350,
+										EndLine: 350,
+										StartPos: 8597,
+										EndPos: 8647,
+									},
+									Variable: &expr.Variable{
+										Position: &position.Position{
+											StartLine: 350,
+											EndLine: 350,
+											StartPos: 8597,
+											EndPos: 8605,
+										},
+										VarName: &node.Identifier{
+											Position: &position.Position{
+												StartLine: 350,
+												EndLine: 350,
+												StartPos: 8597,
+												EndPos: 8605,
+											},
+											Value: "details",
+										},
+									},
+									Expression: &expr.FunctionCall{
+										Position: &position.Position{
+											StartLine: 350,
+											EndLine: 350,
+											StartPos: 8608,
+											EndPos: 8647,
+										},
+										Function: &name.Name{
+											Position: &position.Position{
+												StartLine: 350,
+												EndLine: 350,
+												StartPos: 8608,
+												EndPos: 8621,
+											},
+											Parts: []node.Node{
+												&name.NamePart{
+													Position: &position.Position{
+														StartLine: 350,
+														EndLine: 350,
+														StartPos: 8608,
+														EndPos: 8621,
+													},
+													Value: "apply_filters",
+												},
+											},
+										},
+										ArgumentList: &node.ArgumentList{
+											Position: &position.Position{
+												StartLine: 350,
+												EndLine: 350,
+												StartPos: 8621,
+												EndPos: 8647,
+											},
+											Arguments: []node.Node{
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 350,
+														EndLine: 350,
+														StartPos: 8622,
+														EndPos: 8636,
+													},
+													IsReference: false,
+													Variadic: false,
+													Expr: &scalar.String{
+														Position: &position.Position{
+															StartLine: 350,
+															EndLine: 350,
+															StartPos: 8622,
+															EndPos: 8636,
+														},
+														Value: "'site_details'",
+													},
+												},
+												&node.Argument{
+													Position: &position.Position{
+														StartLine: 350,
+														EndLine: 350,
+														StartPos: 8638,
+														EndPos: 8646,
+													},
+													Variadic: false,
+													IsReference: false,
+													Expr: &expr.Variable{
+														Position: &position.Position{
+															StartLine: 350,
+															EndLine: 350,
+															StartPos: 8638,
+															EndPos: 8646,
+														},
+														VarName: &node.Identifier{
+															Position: &position.Position{
+																StartLine: 350,
+																EndLine: 350,
+																StartPos: 8638,
+																EndPos: 8646,
+															},
+															Value: "details",
+														},
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+							&stmt.Return{
+								Position: &position.Position{
+									StartLine: 352,
+									EndLine: 352,
+									StartPos: 8658,
+									EndPos: 8674,
+								},
+								Expr: &expr.Variable{
+									Position: &position.Position{
+										StartLine: 352,
+										EndLine: 352,
+										StartPos: 8665,
+										EndPos: 8673,
+									},
+									VarName: &node.Identifier{
+										Position: &position.Position{
+											StartLine: 352,
+											EndLine: 352,
+											StartPos: 8665,
+											EndPos: 8673,
+										},
+										Value: "details",
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+}
