@@ -9,4 +9,3 @@
 *.sublime-workspace
 .git/
 .idea/
-vendor/
