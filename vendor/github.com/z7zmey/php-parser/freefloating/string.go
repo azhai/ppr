@@ -141,8 +141,10 @@ func (c Collection) GetDocComment() (comment string) {
 		}
 		if s.StringType == CommentType {
 			has = !s.IsEmpty()
+			comment += s.Value
+		} else if has {
+			comment += s.Value
 		}
-		comment += s.Value
 	}
 	if !has {
 		comment = ""

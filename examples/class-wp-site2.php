@@ -26,8 +26,7 @@
 final class WP_Site
 {
 	
-
-    /**
+	/**
      * Site ID.
      *
      * A numeric string, for compatibility reasons.
@@ -37,8 +36,7 @@ final class WP_Site
      */
     public $blog_id;
 	
-
-    /**
+	/**
      * Domain of the site.
      *
      * @since 4.5.0
@@ -46,8 +44,7 @@ final class WP_Site
      */
     public $domain = '';
 	
-
-    /**
+	/**
      * Path of the site.
      *
      * @since 4.5.0
@@ -55,8 +52,7 @@ final class WP_Site
      */
     public $path = '';
 	
-
-    /**
+	/**
      * The ID of the site's parent network.
      *
      * Named "site" vs. "network" for legacy reasons. An individual site's "site" is
@@ -69,8 +65,7 @@ final class WP_Site
      */
     public $site_id = '0';
 	
-
-    /**
+	/**
      * The date on which the site was created or registered.
      *
      * @since 4.5.0
@@ -78,8 +73,7 @@ final class WP_Site
      */
     public $registered = '0000-00-00 00:00:00';
 	
-
-    /**
+	/**
      * The date and time on which site settings were last updated.
      *
      * @since 4.5.0
@@ -87,8 +81,7 @@ final class WP_Site
      */
     public $last_updated = '0000-00-00 00:00:00';
 	
-
-    /**
+	/**
      * Whether the site should be treated as public.
      *
      * A numeric string, for compatibility reasons.
@@ -98,8 +91,7 @@ final class WP_Site
      */
     public $public = '1';
 	
-
-    /**
+	/**
      * Whether the site should be treated as archived.
      *
      * A numeric string, for compatibility reasons.
@@ -109,8 +101,7 @@ final class WP_Site
      */
     public $archived = '0';
 	
-
-    /**
+	/**
      * Whether the site should be treated as mature.
      *
      * Handling for this does not exist throughout WordPress core, but custom
@@ -123,8 +114,7 @@ final class WP_Site
      */
     public $mature = '0';
 	
-
-    /**
+	/**
      * Whether the site should be treated as spam.
      *
      * A numeric string, for compatibility reasons.
@@ -134,8 +124,7 @@ final class WP_Site
      */
     public $spam = '0';
 	
-
-    /**
+	/**
      * Whether the site should be treated as deleted.
      *
      * A numeric string, for compatibility reasons.
@@ -145,8 +134,7 @@ final class WP_Site
      */
     public $deleted = '0';
 	
-
-    /**
+	/**
      * The language pack associated with this site.
      *
      * A numeric string, for compatibility reasons.
@@ -156,8 +144,7 @@ final class WP_Site
      */
     public $lang_id = '0';
 	
-
-    /**
+	/**
      * Retrieves a site from the database by its ID.
      *
      * @static
@@ -186,8 +173,7 @@ final class WP_Site
 		return new WP_Site($_site);
 	}
 	
-
-    /**
+	/**
      * Creates a new WP_Site object.
      *
      * Will populate object properties from the object provided and assign other
@@ -204,8 +190,7 @@ final class WP_Site
 		}
 	}
 	
-
-    /**
+	/**
      * Converts an object to array.
      *
      * @since 4.6.0
@@ -217,8 +202,7 @@ final class WP_Site
 		return get_object_vars($this);
 	}
 	
-
-    /**
+	/**
      * Getter.
      *
      * Allows current multisite naming conventions when getting properties.
@@ -241,7 +225,8 @@ final class WP_Site
 			case 'post_count':
 			case 'home':
 			default:
-				 // Custom properties added by 'site_details' filter.
+				
+				// Custom properties added by 'site_details' filter.
                 if (!did_action('ms_loaded')) {
 					return null;
 				}
@@ -253,8 +238,7 @@ final class WP_Site
 		return null;
 	}
 	
-
-    /**
+	/**
      * Isset-er.
      *
      * Allows current multisite naming conventions when checking for properties.
@@ -280,7 +264,8 @@ final class WP_Site
 				}
 				return true;
 			default:
-				 // Custom properties added by 'site_details' filter.
+				
+				// Custom properties added by 'site_details' filter.
                 if (!did_action('ms_loaded')) {
 					return false;
 				}
@@ -292,8 +277,7 @@ final class WP_Site
 		return false;
 	}
 	
-
-    /**
+	/**
      * Setter.
      *
      * Allows current multisite naming conventions while setting properties.
@@ -317,8 +301,7 @@ final class WP_Site
 		}
 	}
 	
-
-    /**
+	/**
      * Retrieves the details for this site.
      *
      * This method is used internally to lazy-load the extended properties of a site.
@@ -335,7 +318,7 @@ final class WP_Site
 		if (false === $details) {
 			switch_to_blog($this->blog_id);
 			
-            // Create a raw copy of the object for backwards compatibility with the filter below.
+			// Create a raw copy of the object for backwards compatibility with the filter below.
             $details = new stdClass();
 			foreach (get_object_vars($this) as $key => $value) {
 				$details->$key = $value;
@@ -348,12 +331,10 @@ final class WP_Site
 			wp_cache_set($this->blog_id, $details, 'site-details');
 		}
 		
-
-        /** This filter is documented in wp-includes/ms-blogs.php */
+		/** This filter is documented in wp-includes/ms-blogs.php */
         $details = apply_filters_deprecated('blog_details', [$details], '4.7.0', 'site_details');
 		
-
-        /**
+		/**
          * Filters a site's extended properties.
          *
          * @since 4.6.0

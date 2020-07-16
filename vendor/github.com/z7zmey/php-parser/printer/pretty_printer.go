@@ -31,7 +31,8 @@ func NewPrettyPrinter(w io.Writer, indentStr string) *PrettyPrinter {
 }
 
 func (p *PrettyPrinter) Print(n node.Node) {
-	p.printDocComment(n.GetFreeFloating())
+	doc := n.GetFreeFloating()
+	p.printDocComment(doc, p.getIndent())
 	p.printNode(n)
 }
 
@@ -40,7 +41,6 @@ func (p *PrettyPrinter) joinPrint(glue string, nn []node.Node) {
 		if k > 0 {
 			io.WriteString(p.w, glue)
 		}
-
 		p.Print(n)
 	}
 }
@@ -59,17 +59,18 @@ func (p *PrettyPrinter) printNodes(nn []node.Node) {
 }
 
 func (p *PrettyPrinter) printIndent() {
-	for i := 0; i < p.indentDepth; i++ {
-		io.WriteString(p.w, p.indentStr)
-	}
+	io.WriteString(p.w, p.getIndent())
 }
 
-func (p *PrettyPrinter) printDocComment(c *freefloating.Collection) {
-	if comment := c.GetDocComment(); comment != "" {
+func (p *PrettyPrinter) getIndent() string {
+	return strings.Repeat(p.indentStr, p.indentDepth)
+}
+
+func (p *PrettyPrinter) printDocComment(doc *freefloating.Collection, ident string) {
+	if comment := doc.GetDocComment(); comment != "" {
+		io.WriteString(p.w, "\n")
+		io.WriteString(p.w, ident)
 		io.WriteString(p.w, comment)
-		//if !strings.HasSuffix(comment, "\n") {
-		//	io.WriteString(p.w, "\n")
-		//}
 	}
 }
 

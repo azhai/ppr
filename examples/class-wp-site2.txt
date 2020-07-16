@@ -292,6 +292,18 @@
 						EndPos: 771,
 					},
 					FreeFloating: freefloating.Collection{
+						"SemiColon": []freefloating.String{
+							freefloating.String{
+								Type: freefloating.TokenType,
+								Position: &position.Position{
+									StartLine: 44,
+									EndLine: 44,
+									StartPos: 770,
+									EndPos: 771,
+								},
+								Value: ";",
+							},
+						},
 						"Start": []freefloating.String{
 							freefloating.String{
 								Type: freefloating.WhiteSpaceType,
@@ -322,18 +334,6 @@
 									EndPos: 751,
 								},
 								Value: "\n    ",
-							},
-						},
-						"SemiColon": []freefloating.String{
-							freefloating.String{
-								Type: freefloating.TokenType,
-								Position: &position.Position{
-									StartLine: 44,
-									EndLine: 44,
-									StartPos: 770,
-									EndPos: 771,
-								},
-								Value: ";",
 							},
 						},
 					},
@@ -1072,6 +1072,18 @@
 						EndPos: 1806,
 					},
 					FreeFloating: freefloating.Collection{
+						"SemiColon": []freefloating.String{
+							freefloating.String{
+								Type: freefloating.TokenType,
+								Position: &position.Position{
+									StartLine: 91,
+									EndLine: 91,
+									StartPos: 1805,
+									EndPos: 1806,
+								},
+								Value: ";",
+							},
+						},
 						"Start": []freefloating.String{
 							freefloating.String{
 								Type: freefloating.WhiteSpaceType,
@@ -1102,18 +1114,6 @@
 									EndPos: 1785,
 								},
 								Value: "\n    ",
-							},
-						},
-						"SemiColon": []freefloating.String{
-							freefloating.String{
-								Type: freefloating.TokenType,
-								Position: &position.Position{
-									StartLine: 91,
-									EndLine: 91,
-									StartPos: 1805,
-									EndPos: 1806,
-								},
-								Value: ";",
 							},
 						},
 					},
@@ -1384,18 +1384,6 @@
 						EndPos: 2367,
 					},
 					FreeFloating: freefloating.Collection{
-						"SemiColon": []freefloating.String{
-							freefloating.String{
-								Type: freefloating.TokenType,
-								Position: &position.Position{
-									StartLine: 114,
-									EndLine: 114,
-									StartPos: 2366,
-									EndPos: 2367,
-								},
-								Value: ";",
-							},
-						},
 						"Start": []freefloating.String{
 							freefloating.String{
 								Type: freefloating.WhiteSpaceType,
@@ -1426,6 +1414,18 @@
 									EndPos: 2346,
 								},
 								Value: "\n    ",
+							},
+						},
+						"SemiColon": []freefloating.String{
+							freefloating.String{
+								Type: freefloating.TokenType,
+								Position: &position.Position{
+									StartLine: 114,
+									EndLine: 114,
+									StartPos: 2366,
+									EndPos: 2367,
+								},
+								Value: ";",
 							},
 						},
 					},
@@ -1540,18 +1540,6 @@
 						EndPos: 2564,
 					},
 					FreeFloating: freefloating.Collection{
-						"SemiColon": []freefloating.String{
-							freefloating.String{
-								Type: freefloating.TokenType,
-								Position: &position.Position{
-									StartLine: 124,
-									EndLine: 124,
-									StartPos: 2563,
-									EndPos: 2564,
-								},
-								Value: ";",
-							},
-						},
 						"Start": []freefloating.String{
 							freefloating.String{
 								Type: freefloating.WhiteSpaceType,
@@ -1582,6 +1570,18 @@
 									EndPos: 2545,
 								},
 								Value: "\n    ",
+							},
+						},
+						"SemiColon": []freefloating.String{
+							freefloating.String{
+								Type: freefloating.TokenType,
+								Position: &position.Position{
+									StartLine: 124,
+									EndLine: 124,
+									StartPos: 2563,
+									EndPos: 2564,
+								},
+								Value: ";",
 							},
 						},
 					},
@@ -2118,8 +2118,8 @@
 								StartPos: 3330,
 								EndPos: 3338,
 							},
-							ByRef: false,
 							Variadic: false,
+							ByRef: false,
 							Variable: &expr.Variable{
 								Position: &position.Position{
 									StartLine: 157,
@@ -2161,18 +2161,6 @@
 							EndPos: 3871,
 						},
 						FreeFloating: freefloating.Collection{
-							"Start": []freefloating.String{
-								freefloating.String{
-									Type: freefloating.WhiteSpaceType,
-									Position: &position.Position{
-										StartLine: 157,
-										EndLine: 158,
-										StartPos: 3339,
-										EndPos: 3344,
-									},
-									Value: "\n    ",
-								},
-							},
 							"Stmts": []freefloating.String{
 								freefloating.String{
 									Type: freefloating.WhiteSpaceType,
@@ -2181,6 +2169,18 @@
 										EndLine: 179,
 										StartPos: 3865,
 										EndPos: 3870,
+									},
+									Value: "\n    ",
+								},
+							},
+							"Start": []freefloating.String{
+								freefloating.String{
+									Type: freefloating.WhiteSpaceType,
+									Position: &position.Position{
+										StartLine: 157,
+										EndLine: 158,
+										StartPos: 3339,
+										EndPos: 3344,
 									},
 									Value: "\n    ",
 								},
@@ -2392,18 +2392,6 @@
 												EndPos: 3402,
 											},
 											FreeFloating: freefloating.Collection{
-												"Start": []freefloating.String{
-													freefloating.String{
-														Type: freefloating.WhiteSpaceType,
-														Position: &position.Position{
-															StartLine: 161,
-															EndLine: 161,
-															StartPos: 3393,
-															EndPos: 3394,
-														},
-														Value: " ",
-													},
-												},
 												"Dollar": []freefloating.String{
 													freefloating.String{
 														Type: freefloating.TokenType,
@@ -2414,6 +2402,18 @@
 															EndPos: 3395,
 														},
 														Value: "$",
+													},
+												},
+												"Start": []freefloating.String{
+													freefloating.String{
+														Type: freefloating.WhiteSpaceType,
+														Position: &position.Position{
+															StartLine: 161,
+															EndLine: 161,
+															StartPos: 3393,
+															EndPos: 3394,
+														},
+														Value: " ",
 													},
 												},
 											},
@@ -2766,8 +2766,8 @@
 														StartPos: 3497,
 														EndPos: 3505,
 													},
-													IsReference: false,
 													Variadic: false,
+													IsReference: false,
 													Expr: &expr.Variable{
 														Position: &position.Position{
 															StartLine: 166,
@@ -3117,8 +3117,8 @@
 																	StartPos: 3578,
 																	EndPos: 3661,
 																},
-																IsReference: false,
 																Variadic: false,
+																IsReference: false,
 																Expr: &expr.MethodCall{
 																	Position: &position.Position{
 																		StartLine: 169,
@@ -3307,8 +3307,8 @@
 																						},
 																					},
 																				},
-																				Variadic: false,
 																				IsReference: false,
+																				Variadic: false,
 																				Expr: &expr.Variable{
 																					Position: &position.Position{
 																						StartLine: 169,
@@ -3777,8 +3777,8 @@
 																	},
 																},
 															},
-															Variadic: false,
 															IsReference: false,
+															Variadic: false,
 															Expr: &expr.Variable{
 																Position: &position.Position{
 																	StartLine: 175,
@@ -4132,18 +4132,6 @@
 							EndPos: 4306,
 						},
 						FreeFloating: freefloating.Collection{
-							"Start": []freefloating.String{
-								freefloating.String{
-									Type: freefloating.WhiteSpaceType,
-									Position: &position.Position{
-										StartLine: 191,
-										EndLine: 192,
-										StartPos: 4189,
-										EndPos: 4194,
-									},
-									Value: "\n    ",
-								},
-							},
 							"Stmts": []freefloating.String{
 								freefloating.String{
 									Type: freefloating.WhiteSpaceType,
@@ -4152,6 +4140,18 @@
 										EndLine: 196,
 										StartPos: 4300,
 										EndPos: 4305,
+									},
+									Value: "\n    ",
+								},
+							},
+							"Start": []freefloating.String{
+								freefloating.String{
+									Type: freefloating.WhiteSpaceType,
+									Position: &position.Position{
+										StartLine: 191,
+										EndLine: 192,
+										StartPos: 4189,
+										EndPos: 4194,
 									},
 									Value: "\n    ",
 								},
@@ -4387,18 +4387,6 @@
 										EndPos: 4300,
 									},
 									FreeFloating: freefloating.Collection{
-										"Stmts": []freefloating.String{
-											freefloating.String{
-												Type: freefloating.WhiteSpaceType,
-												Position: &position.Position{
-													StartLine: 194,
-													EndLine: 195,
-													StartPos: 4290,
-													EndPos: 4299,
-												},
-												Value: "\n        ",
-											},
-										},
 										"Start": []freefloating.String{
 											freefloating.String{
 												Type: freefloating.WhiteSpaceType,
@@ -4409,6 +4397,18 @@
 													EndPos: 4255,
 												},
 												Value: " ",
+											},
+										},
+										"Stmts": []freefloating.String{
+											freefloating.String{
+												Type: freefloating.WhiteSpaceType,
+												Position: &position.Position{
+													StartLine: 194,
+													EndLine: 195,
+													StartPos: 4290,
+													EndPos: 4299,
+												},
+												Value: "\n        ",
 											},
 										},
 									},
@@ -4846,18 +4846,6 @@
 						EndPos: 5509,
 					},
 					FreeFloating: freefloating.Collection{
-						"Function": []freefloating.String{
-							freefloating.String{
-								Type: freefloating.WhiteSpaceType,
-								Position: &position.Position{
-									StartLine: 221,
-									EndLine: 221,
-									StartPos: 4842,
-									EndPos: 4843,
-								},
-								Value: " ",
-							},
-						},
 						"Start": []freefloating.String{
 							freefloating.String{
 								Type: freefloating.WhiteSpaceType,
@@ -4902,9 +4890,21 @@
 								Value: " ",
 							},
 						},
+						"Function": []freefloating.String{
+							freefloating.String{
+								Type: freefloating.WhiteSpaceType,
+								Position: &position.Position{
+									StartLine: 221,
+									EndLine: 221,
+									StartPos: 4842,
+									EndPos: 4843,
+								},
+								Value: " ",
+							},
+						},
 					},
-					ReturnsRef: false,
 					PhpDocComment: "",
+					ReturnsRef: false,
 					MethodName: &node.Identifier{
 						Position: &position.Position{
 							StartLine: 221,
@@ -5010,18 +5010,6 @@
 									EndPos: 5481,
 								},
 								FreeFloating: freefloating.Collection{
-									"Switch": []freefloating.String{
-										freefloating.String{
-											Type: freefloating.WhiteSpaceType,
-											Position: &position.Position{
-												StartLine: 223,
-												EndLine: 223,
-												StartPos: 4875,
-												EndPos: 4876,
-											},
-											Value: " ",
-										},
-									},
 									"Start": []freefloating.String{
 										freefloating.String{
 											Type: freefloating.WhiteSpaceType,
@@ -5032,6 +5020,18 @@
 												EndPos: 4869,
 											},
 											Value: "\n        ",
+										},
+									},
+									"Switch": []freefloating.String{
+										freefloating.String{
+											Type: freefloating.WhiteSpaceType,
+											Position: &position.Position{
+												StartLine: 223,
+												EndLine: 223,
+												StartPos: 4875,
+												EndPos: 4876,
+											},
+											Value: " ",
 										},
 									},
 								},
@@ -6269,18 +6269,6 @@
 															EndPos: 5471,
 														},
 														FreeFloating: freefloating.Collection{
-															"Start": []freefloating.String{
-																freefloating.String{
-																	Type: freefloating.WhiteSpaceType,
-																	Position: &position.Position{
-																		StartLine: 238,
-																		EndLine: 238,
-																		StartPos: 5408,
-																		EndPos: 5409,
-																	},
-																	Value: " ",
-																},
-															},
 															"Stmts": []freefloating.String{
 																freefloating.String{
 																	Type: freefloating.WhiteSpaceType,
@@ -6291,6 +6279,18 @@
 																		EndPos: 5470,
 																	},
 																	Value: "\n                ",
+																},
+															},
+															"Start": []freefloating.String{
+																freefloating.String{
+																	Type: freefloating.WhiteSpaceType,
+																	Position: &position.Position{
+																		StartLine: 238,
+																		EndLine: 238,
+																		StartPos: 5408,
+																		EndPos: 5409,
+																	},
+																	Value: " ",
 																},
 															},
 														},
@@ -6885,18 +6885,6 @@
 														EndPos: 5957,
 													},
 													FreeFloating: freefloating.Collection{
-														"Start": []freefloating.String{
-															freefloating.String{
-																Type: freefloating.WhiteSpaceType,
-																Position: &position.Position{
-																	StartLine: 261,
-																	EndLine: 262,
-																	StartPos: 5928,
-																	EndPos: 5945,
-																},
-																Value: "\n                ",
-															},
-														},
 														"SemiColon": []freefloating.String{
 															freefloating.String{
 																Type: freefloating.TokenType,
@@ -6907,6 +6895,18 @@
 																	EndPos: 5957,
 																},
 																Value: ";",
+															},
+														},
+														"Start": []freefloating.String{
+															freefloating.String{
+																Type: freefloating.WhiteSpaceType,
+																Position: &position.Position{
+																	StartLine: 261,
+																	EndLine: 262,
+																	StartPos: 5928,
+																	EndPos: 5945,
+																},
+																Value: "\n                ",
 															},
 														},
 													},
@@ -7080,18 +7080,6 @@
 												EndPos: -1,
 											},
 											FreeFloating: freefloating.Collection{
-												"CaseSeparator": []freefloating.String{
-													freefloating.String{
-														Type: freefloating.TokenType,
-														Position: &position.Position{
-															StartLine: 265,
-															EndLine: 265,
-															StartPos: 6044,
-															EndPos: 6045,
-														},
-														Value: ":",
-													},
-												},
 												"Start": []freefloating.String{
 													freefloating.String{
 														Type: freefloating.WhiteSpaceType,
@@ -7102,6 +7090,18 @@
 															EndPos: 6027,
 														},
 														Value: "\n            ",
+													},
+												},
+												"CaseSeparator": []freefloating.String{
+													freefloating.String{
+														Type: freefloating.TokenType,
+														Position: &position.Position{
+															StartLine: 265,
+															EndLine: 265,
+															StartPos: 6044,
+															EndPos: 6045,
+														},
+														Value: ":",
 													},
 												},
 											},
@@ -7139,18 +7139,6 @@
 												EndPos: 6200,
 											},
 											FreeFloating: freefloating.Collection{
-												"Start": []freefloating.String{
-													freefloating.String{
-														Type: freefloating.WhiteSpaceType,
-														Position: &position.Position{
-															StartLine: 265,
-															EndLine: 266,
-															StartPos: 6045,
-															EndPos: 6058,
-														},
-														Value: "\n            ",
-													},
-												},
 												"CaseSeparator": []freefloating.String{
 													freefloating.String{
 														Type: freefloating.TokenType,
@@ -7161,6 +7149,18 @@
 															EndPos: 6070,
 														},
 														Value: ":",
+													},
+												},
+												"Start": []freefloating.String{
+													freefloating.String{
+														Type: freefloating.WhiteSpaceType,
+														Position: &position.Position{
+															StartLine: 265,
+															EndLine: 266,
+															StartPos: 6045,
+															EndPos: 6058,
+														},
+														Value: "\n            ",
 													},
 												},
 											},
@@ -7530,6 +7530,18 @@
 														EndPos: 6375,
 													},
 													FreeFloating: freefloating.Collection{
+														"If": []freefloating.String{
+															freefloating.String{
+																Type: freefloating.WhiteSpaceType,
+																Position: &position.Position{
+																	StartLine: 272,
+																	EndLine: 272,
+																	StartPos: 6293,
+																	EndPos: 6294,
+																},
+																Value: " ",
+															},
+														},
 														"Start": []freefloating.String{
 															freefloating.String{
 																Type: freefloating.WhiteSpaceType,
@@ -7560,18 +7572,6 @@
 																	EndPos: 6291,
 																},
 																Value: "                ",
-															},
-														},
-														"If": []freefloating.String{
-															freefloating.String{
-																Type: freefloating.WhiteSpaceType,
-																Position: &position.Position{
-																	StartLine: 272,
-																	EndLine: 272,
-																	StartPos: 6293,
-																	EndPos: 6294,
-																},
-																Value: " ",
 															},
 														},
 													},
@@ -7661,18 +7661,6 @@
 															EndPos: 6375,
 														},
 														FreeFloating: freefloating.Collection{
-															"Stmts": []freefloating.String{
-																freefloating.String{
-																	Type: freefloating.WhiteSpaceType,
-																	Position: &position.Position{
-																		StartLine: 273,
-																		EndLine: 274,
-																		StartPos: 6357,
-																		EndPos: 6374,
-																	},
-																	Value: "\n                ",
-																},
-															},
 															"Start": []freefloating.String{
 																freefloating.String{
 																	Type: freefloating.WhiteSpaceType,
@@ -7685,6 +7673,18 @@
 																	Value: " ",
 																},
 															},
+															"Stmts": []freefloating.String{
+																freefloating.String{
+																	Type: freefloating.WhiteSpaceType,
+																	Position: &position.Position{
+																		StartLine: 273,
+																		EndLine: 274,
+																		StartPos: 6357,
+																		EndPos: 6374,
+																	},
+																	Value: "\n                ",
+																},
+															},
 														},
 														Stmts: []node.Node{
 															&stmt.Return{
@@ -7695,18 +7695,6 @@
 																	EndPos: 6357,
 																},
 																FreeFloating: freefloating.Collection{
-																	"SemiColon": []freefloating.String{
-																		freefloating.String{
-																			Type: freefloating.TokenType,
-																			Position: &position.Position{
-																				StartLine: 273,
-																				EndLine: 273,
-																				StartPos: 6356,
-																				EndPos: 6357,
-																			},
-																			Value: ";",
-																		},
-																	},
 																	"Start": []freefloating.String{
 																		freefloating.String{
 																			Type: freefloating.WhiteSpaceType,
@@ -7717,6 +7705,18 @@
 																				EndPos: 6344,
 																			},
 																			Value: "\n                    ",
+																		},
+																	},
+																	"SemiColon": []freefloating.String{
+																		freefloating.String{
+																			Type: freefloating.TokenType,
+																			Position: &position.Position{
+																				StartLine: 273,
+																				EndLine: 273,
+																				StartPos: 6356,
+																				EndPos: 6357,
+																			},
+																			Value: ";",
 																		},
 																	},
 																},
@@ -7930,18 +7930,6 @@
 														EndPos: 6521,
 													},
 													FreeFloating: freefloating.Collection{
-														"If": []freefloating.String{
-															freefloating.String{
-																Type: freefloating.WhiteSpaceType,
-																Position: &position.Position{
-																	StartLine: 277,
-																	EndLine: 277,
-																	StartPos: 6444,
-																	EndPos: 6445,
-																},
-																Value: " ",
-															},
-														},
 														"Start": []freefloating.String{
 															freefloating.String{
 																Type: freefloating.WhiteSpaceType,
@@ -7952,6 +7940,18 @@
 																	EndPos: 6442,
 																},
 																Value: "\n                ",
+															},
+														},
+														"If": []freefloating.String{
+															freefloating.String{
+																Type: freefloating.WhiteSpaceType,
+																Position: &position.Position{
+																	StartLine: 277,
+																	EndLine: 277,
+																	StartPos: 6444,
+																	EndPos: 6445,
+																},
+																Value: " ",
 															},
 														},
 													},
@@ -8077,18 +8077,6 @@
 																	EndPos: 6503,
 																},
 																FreeFloating: freefloating.Collection{
-																	"SemiColon": []freefloating.String{
-																		freefloating.String{
-																			Type: freefloating.TokenType,
-																			Position: &position.Position{
-																				StartLine: 278,
-																				EndLine: 278,
-																				StartPos: 6502,
-																				EndPos: 6503,
-																			},
-																			Value: ";",
-																		},
-																	},
 																	"Start": []freefloating.String{
 																		freefloating.String{
 																			Type: freefloating.WhiteSpaceType,
@@ -8099,6 +8087,18 @@
 																				EndPos: 6491,
 																			},
 																			Value: "\n                    ",
+																		},
+																	},
+																	"SemiColon": []freefloating.String{
+																		freefloating.String{
+																			Type: freefloating.TokenType,
+																			Position: &position.Position{
+																				StartLine: 278,
+																				EndLine: 278,
+																				StartPos: 6502,
+																				EndPos: 6503,
+																			},
+																			Value: ";",
 																		},
 																	},
 																},
@@ -8160,18 +8160,6 @@
 									EndPos: 6554,
 								},
 								FreeFloating: freefloating.Collection{
-									"Start": []freefloating.String{
-										freefloating.String{
-											Type: freefloating.WhiteSpaceType,
-											Position: &position.Position{
-												StartLine: 280,
-												EndLine: 282,
-												StartPos: 6531,
-												EndPos: 6541,
-											},
-											Value: "\n\n        ",
-										},
-									},
 									"SemiColon": []freefloating.String{
 										freefloating.String{
 											Type: freefloating.TokenType,
@@ -8182,6 +8170,18 @@
 												EndPos: 6554,
 											},
 											Value: ";",
+										},
+									},
+									"Start": []freefloating.String{
+										freefloating.String{
+											Type: freefloating.WhiteSpaceType,
+											Position: &position.Position{
+												StartLine: 280,
+												EndLine: 282,
+												StartPos: 6531,
+												EndPos: 6541,
+											},
+											Value: "\n\n        ",
 										},
 									},
 								},
@@ -8238,6 +8238,18 @@
 						EndPos: 7161,
 					},
 					FreeFloating: freefloating.Collection{
+						"Function": []freefloating.String{
+							freefloating.String{
+								Type: freefloating.WhiteSpaceType,
+								Position: &position.Position{
+									StartLine: 295,
+									EndLine: 295,
+									StartPos: 6836,
+									EndPos: 6837,
+								},
+								Value: " ",
+							},
+						},
 						"Start": []freefloating.String{
 							freefloating.String{
 								Type: freefloating.WhiteSpaceType,
@@ -8282,18 +8294,6 @@
 								Value: " ",
 							},
 						},
-						"Function": []freefloating.String{
-							freefloating.String{
-								Type: freefloating.WhiteSpaceType,
-								Position: &position.Position{
-									StartLine: 295,
-									EndLine: 295,
-									StartPos: 6836,
-									EndPos: 6837,
-								},
-								Value: " ",
-							},
-						},
 					},
 					ReturnsRef: false,
 					PhpDocComment: "",
@@ -8325,8 +8325,8 @@
 								StartPos: 6843,
 								EndPos: 6847,
 							},
-							Variadic: false,
 							ByRef: false,
+							Variadic: false,
 							Variable: &expr.Variable{
 								Position: &position.Position{
 									StartLine: 295,
@@ -8521,18 +8521,6 @@
 										EndPos: 7155,
 									},
 									FreeFloating: freefloating.Collection{
-										"CaseListEnd": []freefloating.String{
-											freefloating.String{
-												Type: freefloating.WhiteSpaceType,
-												Position: &position.Position{
-													StartLine: 305,
-													EndLine: 306,
-													StartPos: 7145,
-													EndPos: 7154,
-												},
-												Value: "\n        ",
-											},
-										},
 										"Start": []freefloating.String{
 											freefloating.String{
 												Type: freefloating.WhiteSpaceType,
@@ -8543,6 +8531,18 @@
 													EndPos: 6885,
 												},
 												Value: " ",
+											},
+										},
+										"CaseListEnd": []freefloating.String{
+											freefloating.String{
+												Type: freefloating.WhiteSpaceType,
+												Position: &position.Position{
+													StartLine: 305,
+													EndLine: 306,
+													StartPos: 7145,
+													EndPos: 7154,
+												},
+												Value: "\n        ",
 											},
 										},
 									},
@@ -8886,18 +8886,6 @@
 														EndPos: 7063,
 													},
 													FreeFloating: freefloating.Collection{
-														"Start": []freefloating.String{
-															freefloating.String{
-																Type: freefloating.WhiteSpaceType,
-																Position: &position.Position{
-																	StartLine: 301,
-																	EndLine: 302,
-																	StartPos: 7013,
-																	EndPos: 7030,
-																},
-																Value: "\n                ",
-															},
-														},
 														"SemiColon": []freefloating.String{
 															freefloating.String{
 																Type: freefloating.TokenType,
@@ -8908,6 +8896,18 @@
 																	EndPos: 7063,
 																},
 																Value: ";",
+															},
+														},
+														"Start": []freefloating.String{
+															freefloating.String{
+																Type: freefloating.WhiteSpaceType,
+																Position: &position.Position{
+																	StartLine: 301,
+																	EndLine: 302,
+																	StartPos: 7013,
+																	EndPos: 7030,
+																},
+																Value: "\n                ",
 															},
 														},
 													},
@@ -9021,18 +9021,6 @@
 																	EndPos: 7062,
 																},
 																FreeFloating: freefloating.Collection{
-																	"Start": []freefloating.String{
-																		freefloating.String{
-																			Type: freefloating.WhiteSpaceType,
-																			Position: &position.Position{
-																				StartLine: 302,
-																				EndLine: 302,
-																				StartPos: 7055,
-																				EndPos: 7056,
-																			},
-																			Value: " ",
-																		},
-																	},
 																	"Dollar": []freefloating.String{
 																		freefloating.String{
 																			Type: freefloating.TokenType,
@@ -9043,6 +9031,18 @@
 																				EndPos: 7057,
 																			},
 																			Value: "$",
+																		},
+																	},
+																	"Start": []freefloating.String{
+																		freefloating.String{
+																			Type: freefloating.WhiteSpaceType,
+																			Position: &position.Position{
+																				StartLine: 302,
+																				EndLine: 302,
+																				StartPos: 7055,
+																				EndPos: 7056,
+																			},
+																			Value: " ",
 																		},
 																	},
 																},
@@ -9103,18 +9103,6 @@
 												EndPos: 7145,
 											},
 											FreeFloating: freefloating.Collection{
-												"CaseSeparator": []freefloating.String{
-													freefloating.String{
-														Type: freefloating.TokenType,
-														Position: &position.Position{
-															StartLine: 304,
-															EndLine: 304,
-															StartPos: 7106,
-															EndPos: 7107,
-														},
-														Value: ":",
-													},
-												},
 												"Start": []freefloating.String{
 													freefloating.String{
 														Type: freefloating.WhiteSpaceType,
@@ -9127,6 +9115,18 @@
 														Value: "\n            ",
 													},
 												},
+												"CaseSeparator": []freefloating.String{
+													freefloating.String{
+														Type: freefloating.TokenType,
+														Position: &position.Position{
+															StartLine: 304,
+															EndLine: 304,
+															StartPos: 7106,
+															EndPos: 7107,
+														},
+														Value: ":",
+													},
+												},
 											},
 											Stmts: []node.Node{
 												&stmt.Expression{
@@ -9137,18 +9137,6 @@
 														EndPos: 7145,
 													},
 													FreeFloating: freefloating.Collection{
-														"Start": []freefloating.String{
-															freefloating.String{
-																Type: freefloating.WhiteSpaceType,
-																Position: &position.Position{
-																	StartLine: 304,
-																	EndLine: 305,
-																	StartPos: 7107,
-																	EndPos: 7124,
-																},
-																Value: "\n                ",
-															},
-														},
 														"SemiColon": []freefloating.String{
 															freefloating.String{
 																Type: freefloating.TokenType,
@@ -9159,6 +9147,18 @@
 																	EndPos: 7145,
 																},
 																Value: ";",
+															},
+														},
+														"Start": []freefloating.String{
+															freefloating.String{
+																Type: freefloating.WhiteSpaceType,
+																Position: &position.Position{
+																	StartLine: 304,
+																	EndLine: 305,
+																	StartPos: 7107,
+																	EndPos: 7124,
+																},
+																Value: "\n                ",
 															},
 														},
 													},
@@ -9401,18 +9401,6 @@
 							EndPos: 8680,
 						},
 						FreeFloating: freefloating.Collection{
-							"Stmts": []freefloating.String{
-								freefloating.String{
-									Type: freefloating.WhiteSpaceType,
-									Position: &position.Position{
-										StartLine: 352,
-										EndLine: 353,
-										StartPos: 8674,
-										EndPos: 8679,
-									},
-									Value: "\n    ",
-								},
-							},
 							"Start": []freefloating.String{
 								freefloating.String{
 									Type: freefloating.WhiteSpaceType,
@@ -9421,6 +9409,18 @@
 										EndLine: 321,
 										StartPos: 7489,
 										EndPos: 7494,
+									},
+									Value: "\n    ",
+								},
+							},
+							"Stmts": []freefloating.String{
+								freefloating.String{
+									Type: freefloating.WhiteSpaceType,
+									Position: &position.Position{
+										StartLine: 352,
+										EndLine: 353,
+										StartPos: 8674,
+										EndPos: 8679,
 									},
 									Value: "\n    ",
 								},
@@ -9745,18 +9745,6 @@
 											EndPos: 7592,
 										},
 										FreeFloating: freefloating.Collection{
-											"Start": []freefloating.String{
-												freefloating.String{
-													Type: freefloating.WhiteSpaceType,
-													Position: &position.Position{
-														StartLine: 324,
-														EndLine: 324,
-														StartPos: 7583,
-														EndPos: 7584,
-													},
-													Value: " ",
-												},
-											},
 											"Dollar": []freefloating.String{
 												freefloating.String{
 													Type: freefloating.TokenType,
@@ -9767,6 +9755,18 @@
 														EndPos: 7585,
 													},
 													Value: "$",
+												},
+											},
+											"Start": []freefloating.String{
+												freefloating.String{
+													Type: freefloating.WhiteSpaceType,
+													Position: &position.Position{
+														StartLine: 324,
+														EndLine: 324,
+														StartPos: 7583,
+														EndPos: 7584,
+													},
+													Value: " ",
 												},
 											},
 										},
@@ -9889,8 +9889,8 @@
 																StartPos: 7623,
 																EndPos: 7637,
 															},
-															Variadic: false,
 															IsReference: false,
+															Variadic: false,
 															Expr: &expr.PropertyFetch{
 																Position: &position.Position{
 																	StartLine: 325,
@@ -9952,18 +9952,6 @@
 												EndPos: 7776,
 											},
 											FreeFloating: freefloating.Collection{
-												"SemiColon": []freefloating.String{
-													freefloating.String{
-														Type: freefloating.TokenType,
-														Position: &position.Position{
-															StartLine: 327,
-															EndLine: 327,
-															StartPos: 7775,
-															EndPos: 7776,
-														},
-														Value: ";",
-													},
-												},
 												"Start": []freefloating.String{
 													freefloating.String{
 														Type: freefloating.WhiteSpaceType,
@@ -9994,6 +9982,18 @@
 															EndPos: 7750,
 														},
 														Value: "            ",
+													},
+												},
+												"SemiColon": []freefloating.String{
+													freefloating.String{
+														Type: freefloating.TokenType,
+														Position: &position.Position{
+															StartLine: 327,
+															EndLine: 327,
+															StartPos: 7775,
+															EndPos: 7776,
+														},
+														Value: ";",
 													},
 												},
 											},
@@ -11071,18 +11071,6 @@
 												EndPos: 8129,
 											},
 											FreeFloating: freefloating.Collection{
-												"SemiColon": []freefloating.String{
-													freefloating.String{
-														Type: freefloating.TokenType,
-														Position: &position.Position{
-															StartLine: 334,
-															EndLine: 334,
-															StartPos: 8128,
-															EndPos: 8129,
-														},
-														Value: ";",
-													},
-												},
 												"Start": []freefloating.String{
 													freefloating.String{
 														Type: freefloating.WhiteSpaceType,
@@ -11093,6 +11081,18 @@
 															EndPos: 8087,
 														},
 														Value: "\n            ",
+													},
+												},
+												"SemiColon": []freefloating.String{
+													freefloating.String{
+														Type: freefloating.TokenType,
+														Position: &position.Position{
+															StartLine: 334,
+															EndLine: 334,
+															StartPos: 8128,
+															EndPos: 8129,
+														},
+														Value: ";",
 													},
 												},
 											},
@@ -11220,8 +11220,8 @@
 																	StartPos: 8121,
 																	EndPos: 8127,
 																},
-																IsReference: false,
 																Variadic: false,
+																IsReference: false,
 																Expr: &scalar.String{
 																	Position: &position.Position{
 																		StartLine: 334,
@@ -11380,8 +11380,8 @@
 																StartPos: 8192,
 																EndPos: 8206,
 															},
-															Variadic: false,
 															IsReference: false,
+															Variadic: false,
 															Expr: &expr.PropertyFetch{
 																Position: &position.Position{
 																	StartLine: 337,
@@ -11507,8 +11507,8 @@
 																	},
 																},
 															},
-															Variadic: false,
 															IsReference: false,
+															Variadic: false,
 															Expr: &scalar.String{
 																Position: &position.Position{
 																	StartLine: 337,
@@ -11821,8 +11821,8 @@
 															},
 														},
 													},
-													Variadic: false,
 													IsReference: false,
+													Variadic: false,
 													Expr: &scalar.String{
 														Position: &position.Position{
 															StartLine: 341,
@@ -12111,18 +12111,6 @@
 									EndPos: 8674,
 								},
 								FreeFloating: freefloating.Collection{
-									"SemiColon": []freefloating.String{
-										freefloating.String{
-											Type: freefloating.TokenType,
-											Position: &position.Position{
-												StartLine: 352,
-												EndLine: 352,
-												StartPos: 8673,
-												EndPos: 8674,
-											},
-											Value: ";",
-										},
-									},
 									"Start": []freefloating.String{
 										freefloating.String{
 											Type: freefloating.WhiteSpaceType,
@@ -12133,6 +12121,18 @@
 												EndPos: 8658,
 											},
 											Value: "\n\n        ",
+										},
+									},
+									"SemiColon": []freefloating.String{
+										freefloating.String{
+											Type: freefloating.TokenType,
+											Position: &position.Position{
+												StartLine: 352,
+												EndLine: 352,
+												StartPos: 8673,
+												EndPos: 8674,
+											},
+											Value: ";",
 										},
 									},
 								},
