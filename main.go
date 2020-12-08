@@ -17,7 +17,7 @@ func main() {
 	filename := "examples/class-wp-site.php"
 	src, _ := ioutil.ReadFile(filename)
 	parser, _ := parser.NewParser(src, "5.4")
-	parser.Parse(true)
+	parser.Parse()
 	for _, err := range parser.GetErrors() {
 		fmt.Println(err)
 	}

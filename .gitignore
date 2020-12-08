@@ -7,5 +7,10 @@
 *.swap
 *.sublime-project
 *.sublime-workspace
+go.sum
+settings.yml
+
 .git/
 .idea/
+.vscode/
+vendor
