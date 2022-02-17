@@ -22,6 +22,7 @@ func main() {
 		fmt.Println(err)
 	}
 	rootNode := parser.GetRootNode()
+	pp.Println("==============================================")
 	pp.Println(rootNode.GetPosition())
 	pp.Println(rootNode.GetFreeFloating())
 
@@ -38,7 +39,10 @@ func main() {
 			return
 		}
 	}
+	pp.Println("----------------------------------------------")
 	pp.Println(klass.Position)
+	pp.Println("----------------------------------------------")
 	pp.Println(klass.ClassName)
+	pp.Println("----------------------------------------------")
 	pp.Println(klass.PhpDocComment)
 }

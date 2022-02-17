@@ -705,8 +705,8 @@
 						StartPos: 3294,
 						EndPos: 3871,
 					},
-					PhpDocComment: "",
 					ReturnsRef: false,
+					PhpDocComment: "",
 					MethodName: &node.Identifier{
 						Position: &position.Position{
 							StartLine: 157,
@@ -1008,8 +1008,8 @@
 														StartPos: 3497,
 														EndPos: 3505,
 													},
-													IsReference: false,
 													Variadic: false,
+													IsReference: false,
 													Expr: &expr.Variable{
 														Position: &position.Position{
 															StartLine: 166,
@@ -1171,8 +1171,8 @@
 																	StartPos: 3578,
 																	EndPos: 3661,
 																},
-																IsReference: false,
 																Variadic: false,
+																IsReference: false,
 																Expr: &expr.MethodCall{
 																	Position: &position.Position{
 																		StartLine: 169,
@@ -1293,8 +1293,8 @@
 																					StartPos: 3652,
 																					EndPos: 3660,
 																				},
-																				IsReference: false,
 																				Variadic: false,
+																				IsReference: false,
 																				Expr: &expr.Variable{
 																					Position: &position.Position{
 																						StartLine: 169,
@@ -1402,8 +1402,8 @@
 																	StartPos: 3710,
 																	EndPos: 3716,
 																},
-																IsReference: false,
 																Variadic: false,
+																IsReference: false,
 																Expr: &expr.Variable{
 																	Position: &position.Position{
 																		StartLine: 171,
@@ -1675,8 +1675,8 @@
 						StartPos: 4155,
 						EndPos: 4306,
 					},
-					PhpDocComment: "",
 					ReturnsRef: false,
+					PhpDocComment: "",
 					MethodName: &node.Identifier{
 						Position: &position.Position{
 							StartLine: 191,
@@ -2047,8 +2047,8 @@
 						StartPos: 4827,
 						EndPos: 5509,
 					},
-					ReturnsRef: false,
 					PhpDocComment: "",
+					ReturnsRef: false,
 					MethodName: &node.Identifier{
 						Position: &position.Position{
 							StartLine: 221,
@@ -2415,8 +2415,8 @@
 																			StartPos: 5249,
 																			EndPos: 5260,
 																		},
-																		IsReference: false,
 																		Variadic: false,
+																		IsReference: false,
 																		Expr: &scalar.String{
 																			Position: &position.Position{
 																				StartLine: 233,
@@ -3526,8 +3526,8 @@
 								StartPos: 6849,
 								EndPos: 6855,
 							},
-							Variadic: false,
 							ByRef: false,
+							Variadic: false,
 							Variable: &expr.Variable{
 								Position: &position.Position{
 									StartLine: 295,
@@ -4035,8 +4035,8 @@
 														StartPos: 7544,
 														EndPos: 7558,
 													},
-													IsReference: false,
 													Variadic: false,
+													IsReference: false,
 													Expr: &scalar.String{
 														Position: &position.Position{
 															StartLine: 322,
@@ -4556,8 +4556,8 @@
 																	StartPos: 7943,
 																	EndPos: 7953,
 																},
-																IsReference: false,
 																Variadic: false,
+																IsReference: false,
 																Expr: &scalar.String{
 																	Position: &position.Position{
 																		StartLine: 331,
@@ -4662,8 +4662,8 @@
 																	StartPos: 8002,
 																	EndPos: 8011,
 																},
-																Variadic: false,
 																IsReference: false,
+																Variadic: false,
 																Expr: &scalar.String{
 																	Position: &position.Position{
 																		StartLine: 332,
